@@ -1,6 +1,10 @@
 # docker / docker-compose
 abbr d docker
-abbr dco docker-compose
+abbr dc docker-compose
+abbr dce 'docker-compose exec'
+abbr dcl 'docker-compose logs'
+abbr dclf 'docker-compose logs -f'
+abbr dcr 'docker-compose run'
 
 # git
 abbr g git

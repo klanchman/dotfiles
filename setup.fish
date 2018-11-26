@@ -52,6 +52,7 @@ for CONCERN in (find (pwd) -type d -depth 1 -not -name '.git')
       continue
     end
 
+    # TODO: This is a mess
     set REST_OF_DIRNAME (string replace $CONCERN "" (dirname $FILE_TO_LINK))
     set OUTPUT_FILENAME $PREPEND$FILENAME
     set FULL_DIRNAME $DESTINATION$REST_OF_DIRNAME

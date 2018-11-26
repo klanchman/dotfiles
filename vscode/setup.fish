@@ -6,39 +6,42 @@ if not type -q code
 end
 
 set EXTENSIONS \
-  ms-vscode.csharp \
-  naumovs.color-highlight \
-  msjsdiag.debugger-for-chrome \
-  hbenl.vscode-firefox-debug \
-  sleistner.vscode-fileutils \
-  JohannesRudolph.file-ext-switcher \
-  skyapps.fish-vscode \
-  waderyan.gitblame \
-  PKief.material-icon-theme \
-  ryu1kn.partial-diff \
+  abusaidm.html-snippets \
+  Arjun.swagger-viewer \
   christian-kohler.path-intellisense \
+  eg2.tslint \
   esbenp.prettier-vscode \
+  hbenl.vscode-firefox-debug \
+  Ionide.Ionide-fsharp \
+  JohannesRudolph.file-ext-switcher \
+  kumar-harsh.graphql-for-vscode \
   mechatroner.rainbow-csv \
-  rebornix.Ruby \
+  mermade.openapi-lint \
+  mrmlnc.vscode-scss \
+  ms-vscode.cpptools \
+  ms-vscode.csharp \
+  ms-vsliveshare.vsliveshare \
+  msjsdiag.debugger-for-chrome \
+  naumovs.color-highlight \
+  PKief.material-icon-theme \
+  QassimFarid.ejs-language-support \
+  rebornix.ruby \
+  redhat.vscode-yaml \
+  ryu1kn.partial-diff \
+  shinnn.stylelint \
+  skyapps.fish-vscode \
+  sleistner.vscode-fileutils \
+  streetsidesoftware.code-spell-checker \
   timonwong.shellcheck \
+  waderyan.gitblame \
   wayou.vscode-todo-highlight \
-  eg2.tslint
+
+set CURRENT_EXTENSIONS (code --list-extensions)
 
 for EXTENSION in $EXTENSIONS
+  if contains $EXTENSION $CURRENT_EXTENSIONS
+    continue
+  end
+
   code --install-extension $EXTENSION
 end
-
-# Other extensions - probably don't always want these installed - maybe just toss in the wiki?
-# TODO: Identifiers
-# ejs
-# c/c++
-# diff
-# docker
-# html snippets
-# openapi-lint
-# php debug
-# powershell
-# scss intellisense
-# swagger viewer
-# stylelint
-# vs code live share
