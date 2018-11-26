@@ -1,0 +1,23 @@
+# Local/private config goes in the include
+[include]
+  path = ~/.gitconfig.local
+
+[core]
+  excludesfile = /Users/klanchman/.gitignore_global
+
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --new-window --wait --diff \"$LOCAL\" \"$REMOTE\"
+
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait \"$MERGED\"
+
+[alias]
+  dt = difftool
+  get-branch = rev-parse --abbrev-ref HEAD
+  graph = log --oneline --abbrev-commit --all --graph --decorate --color
+  mt = mergetool
+  pr = "!f() { git fetch $1 pull/$2/head:pull/$2 && git checkout pull/$2; }; f"

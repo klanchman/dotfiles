@@ -1,0 +1,115 @@
+// Place your settings in this file to overwrite the default settings
+{
+  // General
+  "breadcrumbs.enabled": true,
+  "editor.cursorStyle": "block",
+  "editor.detectIndentation": true,
+  "editor.dragAndDrop": false,
+  "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": true,
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "files.associations": {
+    "*.plist": "xml",
+    ".env*": "ini"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "build": true,
+    "dist": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "search.showLineNumbers": true,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#EAE3CB",
+    "statusBar.debuggingForeground": "#C56231"
+  },
+  "workbench.colorTheme": "Solarized Light",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "workbench.statusBar.visible": true,
+
+  // Languages
+  "typescript.preferences.importModuleSpecifier": "relative",
+
+  // Extensions
+  "color-highlight.markerType": "underline",
+  // "companionFileSwitcher.friendlyName": {
+  //     ".ts": "Implementation",
+  //     ".test.ts": "Test",
+  //     ".tsx": "Component",
+  //     ".test.tsx": "Test"
+  // },
+  "cSpell.userWords": [
+    "Debounced",
+    "Deserializes",
+    "accum",
+    "atts",
+    "backend",
+    "comparator",
+    "deserialize",
+    "dissoc",
+    "paginator",
+    "powerset",
+    "procs",
+    "reqs",
+    "serializers",
+    "subdocument",
+    "subproperty",
+    "unmount",
+    "unmounting",
+    "unnest",
+    "vals",
+    "whitelisting"
+  ],
+  // "jest.autoEnable": false,
+  // "jest.enableCodeLens": false,
+  "material-icon-theme.files.associations": {
+    "actions.ts": "redux-action",
+    "reducer.ts": "redux-reducer",
+    "state.ts": "redux-store",
+    ".env.development.local": "tune",
+    ".env.test": "tune"
+  },
+  "material-icon-theme.folders.associations": {
+    "types": "typescript",
+    "utils": "tools",
+    "store": "redux-store"
+  },
+  "prettier.requireConfig": true,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO",
+      "color": "#fff",
+      "backgroundColor": "#ffbd2a",
+      "overviewRulerColor": "rgba(255,189,42,0.8)"
+    },
+    {
+      "text": "FIXME",
+      "color": "#fff",
+      "backgroundColor": "#f06292",
+      "overviewRulerColor": "rgba(240,98,146,0.8)"
+    },
+    {
+      "text": "MARK:",
+      "color": "#fff",
+      "backgroundColor": "#1ea198",
+      "overviewRulerColor": "rgba(30,161,152,0.8)"
+    }
+  ],
+  "tslint.autoFixOnSave": true
+}
