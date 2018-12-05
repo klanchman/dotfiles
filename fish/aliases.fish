@@ -1,3 +1,6 @@
+# General
+alias reload 'source ~/.config/fish/config.fish'
+
 # docker / docker-compose
 alias docker-prune 'docker container prune; and docker image prune'
 
@@ -13,7 +16,8 @@ alias dcup 'docker-compose up'
 alias dcupd 'docker-compose up -d'
 
 # git
-alias gbg 'git branch -lvv | grep gone'
+alias gbg 'git branch -lvv | grep ": gone]"'
+alias gbgd 'git_delete_gone_branches'
 alias gcb 'git checkout -b'
 alias gfa 'git fetch --all --prune'
 alias gg 'git graph'
@@ -25,4 +29,5 @@ alias gitconfig 'vim ~/.gitconfig'
 
 # yarn
 alias yout 'yarn outdated'
+alias ytwa 'yarn test --watchAll'
 alias yui 'yarn upgrade-interactive'
