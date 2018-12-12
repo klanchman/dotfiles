@@ -28,6 +28,7 @@ alias gs 'git status'
 alias gitconfig 'vim ~/.gitconfig'
 
 # yarn
+alias ycc 'yarn cache clean'
 alias yout 'yarn outdated'
 alias ytwa 'yarn test --watchAll'
 alias yui 'yarn upgrade-interactive'

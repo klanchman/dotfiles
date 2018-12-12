@@ -12,8 +12,8 @@ set -g fish_color_git_unmerged red
 
 set -g fish_prompt_git_status_added '+'
 set -g fish_prompt_git_status_modified '*'
-set -g fish_prompt_git_status_renamed '->'
-set -g fish_prompt_git_status_copied '=>'
+set -g fish_prompt_git_status_renamed '→'
+set -g fish_prompt_git_status_copied '⇒'
 set -g fish_prompt_git_status_deleted 'x'
 set -g fish_prompt_git_status_untracked '?'
 set -g fish_prompt_git_status_unmerged '!'
