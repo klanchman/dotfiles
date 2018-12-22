@@ -8,6 +8,7 @@ end
 set EXTENSIONS \
   abusaidm.html-snippets \
   Arjun.swagger-viewer \
+  castwide.solargraph \
   christian-kohler.path-intellisense \
   eg2.tslint \
   esbenp.prettier-vscode \
@@ -28,6 +29,7 @@ set EXTENSIONS \
   rebornix.ruby \
   redhat.vscode-yaml \
   ryu1kn.partial-diff \
+  sbrink.elm \
   shinnn.stylelint \
   skyapps.fish-vscode \
   sleistner.vscode-fileutils \
