@@ -8,6 +8,7 @@ end
 set EXTENSIONS \
   abusaidm.html-snippets \
   Arjun.swagger-viewer \
+  bungcip.better-toml \
   castwide.solargraph \
   christian-kohler.path-intellisense \
   eg2.tslint \
