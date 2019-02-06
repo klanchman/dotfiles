@@ -11,7 +11,6 @@ set EXTENSIONS \
   bungcip.better-toml \
   castwide.solargraph \
   christian-kohler.path-intellisense \
-  eg2.tslint \
   esbenp.prettier-vscode \
   hbenl.vscode-firefox-debug \
   Ionide.Ionide-fsharp \
@@ -22,6 +21,7 @@ set EXTENSIONS \
   mrmlnc.vscode-scss \
   ms-vscode.cpptools \
   ms-vscode.csharp \
+  ms-vscode.vscode-typescript-tslint-plugin \
   ms-vsliveshare.vsliveshare \
   msjsdiag.debugger-for-chrome \
   naumovs.color-highlight \

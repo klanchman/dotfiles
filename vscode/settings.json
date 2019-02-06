@@ -2,6 +2,9 @@
 {
   // General
   "breadcrumbs.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "editor.cursorStyle": "block",
   "editor.detectIndentation": true,
   "editor.dragAndDrop": false,
@@ -59,6 +62,7 @@
     "atts",
     "backend",
     "comparator",
+    "customizations",
     "debounced",
     "deserialize",
     "deserializes",
@@ -88,6 +92,7 @@
     "reducer.ts": "redux-reducer",
     "state.ts": "redux-store",
     ".env.development.local": "tune",
+    ".env.production.local": "tune",
     ".env.test": "tune"
   },
   "material-icon-theme.folders.associations": {
@@ -115,6 +120,5 @@
       "backgroundColor": "#1ea198",
       "overviewRulerColor": "rgba(30,161,152,0.8)"
     }
-  ],
-  "tslint.autoFixOnSave": true
+  ]
 }
