@@ -1,0 +1,5 @@
+# Homebrew doesn't have a config file that I can find,
+# so we need to source this file at shell start instead
+
+export HOMEBREW_NO_AUTO_UPDATE=true
+export HOMEBREW_NO_INSTALL_CLEANUP=true
