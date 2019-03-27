@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-  // General
+  // #region - General
   "breadcrumbs.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
@@ -42,33 +42,34 @@
     "statusBar.debuggingForeground": "#C56231"
   },
   "workbench.colorTheme": "Solarized Light",
+  "workbench.editor.closeEmptyGroups": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.statusBar.visible": true,
+  // #endregion - General
 
-  // Languages
+  // #region - Languages
   "typescript.preferences.importModuleSpecifier": "relative",
+  // #endregion - Languages
 
-  // Extensions
+  // #region - Extensions
   "color-highlight.markerType": "underline",
-  // "companionFileSwitcher.friendlyName": {
-  //     ".ts": "Implementation",
-  //     ".test.ts": "Test",
-  //     ".tsx": "Component",
-  //     ".test.tsx": "Test"
-  // },
+
   "cSpell.userWords": [
     "accum",
     "atts",
     "backend",
+    "bson",
     "comparator",
     "customizations",
+    "datetime",
     "debounced",
     "deserialize",
     "deserializes",
     "dissoc",
     "endregion",
     "enqueues",
+    "gatekeep",
     "paginator",
     "powerset",
     "procs",
@@ -87,8 +88,10 @@
     "visibilities",
     "whitelisting"
   ],
-  // "jest.autoEnable": false,
-  // "jest.enableCodeLens": false,
+
+  "gitlens.codeLens.enabled": false,
+  "gitlens.views.repositories.enabled": false,
+
   "material-icon-theme.files.associations": {
     "actions.ts": "redux-action",
     "reducer.ts": "redux-reducer",
@@ -102,7 +105,9 @@
     "utils": "tools",
     "store": "redux-store"
   },
+
   "prettier.requireConfig": true,
+
   "todohighlight.keywords": [
     {
       "text": "TODO",
@@ -121,6 +126,19 @@
       "color": "#fff",
       "backgroundColor": "#1ea198",
       "overviewRulerColor": "rgba(30,161,152,0.8)"
-    }
-  ]
+    },
+    {
+      "text": "#region",
+      "color": "#fff",
+      "backgroundColor": "#1ea198",
+      "overviewRulerColor": "rgba(30,161,152,0.8)"
+    },
+    {
+      "text": "#endregion",
+      "color": "#fff",
+      "backgroundColor": "#a0d7d3",
+      "overviewRulerColor": "rgba(160,215,211,0.8)"
+    },
+  ],
+  // #endregion - Extensions
 }

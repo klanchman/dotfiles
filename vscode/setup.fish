@@ -11,6 +11,8 @@ set EXTENSIONS \
   bungcip.better-toml \
   castwide.solargraph \
   christian-kohler.path-intellisense \
+  davidnussio.vscode-jq-playground \
+  eamodio.gitlens \
   esbenp.prettier-vscode \
   hbenl.vscode-firefox-debug \
   Ionide.Ionide-fsharp \
@@ -36,7 +38,6 @@ set EXTENSIONS \
   sleistner.vscode-fileutils \
   streetsidesoftware.code-spell-checker \
   timonwong.shellcheck \
-  waderyan.gitblame \
   wayou.vscode-todo-highlight \
 
 set CURRENT_EXTENSIONS (code --list-extensions)
