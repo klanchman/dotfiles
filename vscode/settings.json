@@ -6,6 +6,7 @@
     "source.fixAll": true
   },
   "editor.cursorStyle": "block",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": true,
   "editor.dragAndDrop": false,
   "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
@@ -72,6 +73,7 @@
     "gatekeep",
     "paginator",
     "powerset",
+    "processable",
     "procs",
     "release",
     "reqs",
