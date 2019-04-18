@@ -8,6 +8,12 @@ set BREWS \
   mitmproxy \
   yarn \
 
+set CASKS \
+  betterzip \
+  qlcolorcode \
+  qlimagesize \
+  qlstephen \
+
 if test "$WHERE_AM_I" = "H"
   set -a BREWS \
     hugo \
@@ -21,6 +27,7 @@ if test "$WHERE_AM_I" = "W"
 end
 
 set CURRENT_BREWS (brew list)
+set CURRENT_CASKS (brew cask list)
 
 for BREW in $BREWS
   if contains $BREW $CURRENT_BREWS
@@ -28,4 +35,12 @@ for BREW in $BREWS
   end
 
   brew install $BREW
+end
+
+for CASK in $CASKS
+  if contains $CASK $CURRENT_CASKS
+    continue
+  end
+
+  brew cask install $CASK
 end
