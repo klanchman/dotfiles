@@ -2,7 +2,12 @@
 
 if not type -q code
   # Install `code` where VS Code does
-  ln -s /Applications/Visual Studio Code.app/Contents/Resources/app/bin/code /usr/local/bin/code
+  if not test -d "/Applications/Visual Studio Code.app"
+    echo "VS Code is not installed"
+    exit 1
+  end
+
+  ln -s "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" /usr/local/bin/code
 end
 
 set EXTENSIONS \

@@ -4,8 +4,19 @@ Dotfiles for macOS.
 
 ## Prerequisites
 
-- git
+- brew
 - fish
+- git
+- nvm
+- rbenv
+
+Run the following script to get prerequisites installed:
+
+```
+./bootstrap.sh
+```
+
+You'll probably want to have Xcode installed before that though.
 
 ## Install
 
