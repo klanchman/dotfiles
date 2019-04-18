@@ -5,7 +5,11 @@ read -P "[H]ome or [W]ork? " WHERE_AM_I
 set BREWS \
   carthage \
   ffmpeg \
+  imagemagick \
+  jq \
   mitmproxy \
+  shellcheck \
+  telnet \
   yarn \
 
 set CASKS \
@@ -23,7 +27,10 @@ if test "$WHERE_AM_I" = "H"
 end
 
 if test "$WHERE_AM_I" = "W"
-  # TODO
+  set -a BREWS \
+    dnsmasq \
+    nginx \
+
 end
 
 set CURRENT_BREWS (brew list)
