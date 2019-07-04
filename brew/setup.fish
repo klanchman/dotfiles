@@ -14,6 +14,7 @@ set BREWS \
 
 set CASKS \
   betterzip \
+  fastlane \
   qlcolorcode \
   qlimagesize \
   qlstephen \
@@ -23,6 +24,7 @@ if test "$WHERE_AM_I" = "H"
     hugo \
     mkvtoolnix \
     mpv \
+    xdelta \
 
 end
 

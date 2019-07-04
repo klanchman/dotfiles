@@ -13,6 +13,7 @@ end
 set EXTENSIONS \
   abusaidm.html-snippets \
   Arjun.swagger-viewer \
+  budparr.language-hugo-vscode \
   bungcip.better-toml \
   castwide.solargraph \
   christian-kohler.path-intellisense \

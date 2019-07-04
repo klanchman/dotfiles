@@ -8,6 +8,26 @@
 		<array>
 			<dict>
 				<key>Action</key>
+				<string>performAlertEvent:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>D4CB34B1-0756-4966-AC8B-B68036A46F7C-990-0000013111704D16</string>
+				<key>Group</key>
+				<string>Xcode Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Xcode</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Behaviors</string>
+				<key>Title</key>
+				<string>Open Terminal</string>
+			</dict>
+			<dict>
+				<key>Action</key>
 				<string>_invokeSourceEditorExtensionCommand:</string>
 				<key>Alternate</key>
 				<string>NO</string>
