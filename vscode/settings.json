@@ -35,6 +35,7 @@
   "files.trimTrailingWhitespace": true,
   "search.showLineNumbers": true,
   "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.scrollback": 2000,
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
@@ -71,6 +72,7 @@
     "endregion",
     "enqueues",
     "gatekeep",
+    "memoized",
     "paginator",
     "powerset",
     "processable",
@@ -85,7 +87,9 @@
     "unmount",
     "unmounting",
     "unnest",
+    "unpublish",
     "unshifted",
+    "untrusted",
     "vals",
     "visibilities",
     "whitelisting"
@@ -93,6 +97,8 @@
 
   "gitlens.codeLens.enabled": false,
   "gitlens.views.repositories.enabled": false,
+
+  "liveshare.featureSet": "stable",
 
   "material-icon-theme.files.associations": {
     "actions.ts": "redux-action",
@@ -140,7 +146,7 @@
       "color": "#fff",
       "backgroundColor": "#a0d7d3",
       "overviewRulerColor": "rgba(160,215,211,0.8)"
-    },
+    }
   ],
   // #endregion - Extensions
 }

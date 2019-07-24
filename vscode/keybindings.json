@@ -89,7 +89,7 @@
   },
   {
     "key": "cmd+k cmd+right",
-    "command": "workbench.action.moveEditorToNextGroup"
+    "command": "workbench.action.moveEditorToRightGroup"
   },
   {
     "key": "ctrl+cmd+right",
@@ -97,7 +97,7 @@
   },
   {
     "key": "cmd+k cmd+left",
-    "command": "workbench.action.moveEditorToPreviousGroup"
+    "command": "workbench.action.moveEditorToLeftGroup"
   },
   {
     "key": "ctrl+cmd+left",
