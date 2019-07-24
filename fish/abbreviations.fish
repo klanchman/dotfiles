@@ -18,6 +18,8 @@ abbr gl 'git pull'
 abbr gm 'git merge'
 abbr gp 'git push'
 abbr grb 'git rebase'
+abbr gre 'git reset'
+abbr greh 'git reset --hard'
 
 # yarn
 abbr y yarn
