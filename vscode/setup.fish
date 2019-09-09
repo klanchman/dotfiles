@@ -20,7 +20,7 @@ set EXTENSIONS \
   davidnussio.vscode-jq-playground \
   eamodio.gitlens \
   esbenp.prettier-vscode \
-  hbenl.vscode-firefox-debug \
+  firefox-devtools.vscode-firefox-debug \
   Ionide.Ionide-fsharp \
   JohannesRudolph.file-ext-switcher \
   kumar-harsh.graphql-for-vscode \
