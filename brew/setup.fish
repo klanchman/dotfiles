@@ -5,6 +5,7 @@ read -P "[H]ome or [W]ork? " WHERE_AM_I
 set BREWS \
   carthage \
   ffmpeg \
+  hub \
   imagemagick \
   jq \
   mitmproxy \
