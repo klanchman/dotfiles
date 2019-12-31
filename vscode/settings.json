@@ -63,6 +63,7 @@
     "backend",
     "bson",
     "comparator",
+    "cooldown",
     "customizations",
     "datetime",
     "debounced",

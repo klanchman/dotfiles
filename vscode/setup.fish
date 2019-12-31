@@ -24,6 +24,7 @@ set EXTENSIONS \
   Ionide.Ionide-fsharp \
   JohannesRudolph.file-ext-switcher \
   kumar-harsh.graphql-for-vscode \
+  mariomatheu.syntax-project-pbxproj \
   mechatroner.rainbow-csv \
   mermade.openapi-lint \
   mrmlnc.vscode-scss \
