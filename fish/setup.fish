@@ -3,7 +3,7 @@
 # Configure environment variables
 set -xU LESS -R
 set -U fish_greeting ""
-set -U fish_user_paths ~/bin ~/.fastlane/bin
+set -U fish_user_paths ~/bin
 
 # Color theme
 set -U fish_color_autosuggestion 93a1a1

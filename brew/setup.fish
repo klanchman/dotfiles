@@ -15,7 +15,6 @@ set BREWS \
 
 set CASKS \
   betterzip \
-  fastlane \
   qlcolorcode \
   qlimagesize \
   qlstephen \
