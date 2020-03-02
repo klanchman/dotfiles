@@ -33,6 +33,7 @@
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "search.enableSearchEditorPreview": true,
   "search.showLineNumbers": true,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.scrollback": 2000,
@@ -44,7 +45,7 @@
     "editor.selectionBackground": "#EAE3CB",
     "statusBar.debuggingForeground": "#C56231"
   },
-  "workbench.colorTheme": "Solarized Dark",
+  "workbench.colorTheme": "Solarized Light",
   "workbench.editor.closeEmptyGroups": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "Solarized Dark",
@@ -94,6 +95,7 @@
     "unpublish",
     "unshifted",
     "untrusted",
+    "upsert",
     "vals",
     "visibilities",
     "whitelisting"
@@ -117,6 +119,8 @@
     "utils": "tools",
     "store": "redux-store"
   },
+
+  "omnisharp.useGlobalMono": "never",
 
   "prettier.requireConfig": true,
 
