@@ -1,4 +1,10 @@
 function git_delete_gone_branches --description 'Deletes all git branches marked as gone'
+  set deleteFlag -d
+  if contains -- --force-all $argv
+    echo "Force deleting all gone branches!"
+    set deleteFlag -D
+  end
+
   set branchEntries (gbg)
 
   if test $status -eq 1
@@ -9,6 +15,6 @@ function git_delete_gone_branches --description 'Deletes all git branches marked
   end
 
   for branchEntry in $branchEntries
-    git branch -d (string trim $branchEntry | string replace -r '^([^\\s]+).*$' '$1')
+    git branch $deleteFlag (string trim $branchEntry | string replace -r '^([^\\s]+).*$' '$1')
   end
 end
