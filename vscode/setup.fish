@@ -28,8 +28,8 @@ set EXTENSIONS \
   mechatroner.rainbow-csv \
   mermade.openapi-lint \
   mrmlnc.vscode-scss \
+  ms-dotnettools.csharp \
   ms-vscode.cpptools \
-  ms-vscode.csharp \
   ms-vscode.vscode-typescript-tslint-plugin \
   ms-vsliveshare.vsliveshare \
   msjsdiag.debugger-for-chrome \
