@@ -18,6 +18,7 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "off",
   "files.associations": {
+    "*.apns": "json",
     "*.plist": "xml",
     ".env*": "ini"
   },
