@@ -22,6 +22,9 @@ abbr grb 'git rebase'
 abbr gre 'git reset'
 abbr greh 'git reset --hard'
 
+# xcrun simctl
+abbr sim 'xcrun simctl'
+
 # yarn
 abbr y yarn
 abbr ys 'yarn start'
