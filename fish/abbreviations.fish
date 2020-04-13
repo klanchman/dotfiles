@@ -21,6 +21,7 @@ abbr gp 'git push'
 abbr grb 'git rebase'
 abbr gre 'git reset'
 abbr greh 'git reset --hard'
+abbr gwt 'git worktree'
 
 # xcrun simctl
 abbr sim 'xcrun simctl'
