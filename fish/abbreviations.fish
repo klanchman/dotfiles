@@ -22,6 +22,8 @@ abbr grb 'git rebase'
 abbr gre 'git reset'
 abbr greh 'git reset --hard'
 abbr gwt 'git worktree'
+abbr gwta 'git worktree add'
+abbr gwtp 'git worktree prune'
 
 # xcrun simctl
 abbr sim 'xcrun simctl'
