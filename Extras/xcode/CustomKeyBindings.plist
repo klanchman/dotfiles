@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Custom</key>
+  <dict>
+    <key>Copy Line Down</key>
+    <string>moveToBeginningOfLine:, deleteToEndOfLine:, yank:, insertNewline:, setMark:, moveToBeginningOfLine:, selectToMark:, yank:</string>
+    <key>Copy Line Up</key>
+    <string>moveToBeginningOfLine:, deleteToEndOfLine:, yank:, insertNewline:, moveToBeginningOfLine:, yank:, moveUp:</string>
+    <key>Insert New Line Below</key>
+    <string>moveToEndOfLine:, insertNewline:</string>
+  </dict>
+</dict>
+</plist>

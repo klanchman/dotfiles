@@ -19,7 +19,7 @@ end
 #-----
 # Main
 
-for CONCERN in (find (pwd) -type d -depth 1 -not -name '.git')
+for CONCERN in (find (pwd) -type d -depth 1 -not -name '.git' -not -name 'Extras')
   if test -f $CONCERN/$SCRIPT_FILE
     # Use `source` so that interactive setup scripts can do what they need to
     source $CONCERN/$SCRIPT_FILE
