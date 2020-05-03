@@ -34,7 +34,6 @@
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "search.enableSearchEditorPreview": true,
   "search.showLineNumbers": true,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.scrollback": 2000,

@@ -23,6 +23,7 @@ if test "$WHERE_AM_I" = "H"
   set -a BREWS \
     hugo \
     mkvtoolnix \
+    mp3val \
     mpv \
     xdelta \
 
