@@ -18,7 +18,6 @@ alias dcupd 'docker-compose up -d'
 # git
 alias gbg 'git branch -lvv | grep ": gone]"'
 alias gbgd 'git_delete_gone_branches'
-alias gcb 'git checkout -b'
 alias gfa 'git fetch --all --prune'
 alias gg 'git graph'
 alias gmt 'git mergetool --no-prompt'

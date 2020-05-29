@@ -19,10 +19,18 @@ abbr gl 'git pull'
 abbr gm 'git merge'
 abbr gp 'git push'
 abbr grb 'git rebase'
+abbr gr 'git restore'
+abbr gst 'git stash'
+abbr gw 'git switch'
+
+## reset
 abbr gre 'git reset'
 abbr greh 'git reset --hard'
+
+## worktree
 abbr gwt 'git worktree'
 abbr gwta 'git worktree add'
+abbr gwtl 'git worktree list'
 abbr gwtp 'git worktree prune'
 
 # xcrun simctl
