@@ -3,11 +3,13 @@
 read -P "[H]ome or [W]ork? " WHERE_AM_I
 
 set BREWS \
+  asimov \
   carthage \
   ffmpeg \
   hub \
   imagemagick \
   jq \
+  mint \
   mitmproxy \
   shellcheck \
   telnet \
@@ -54,3 +56,7 @@ for CASK in $CASKS
 
   brew cask install $CASK
 end
+
+echo "Enabling Brew services, you may be prompted for your password"
+
+sudo brew services start asimov
