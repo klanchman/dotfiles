@@ -6,7 +6,7 @@ echo "Installing Homebrew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Installing required Homebrew packages..."
-brew install fish git rbenv
+brew install fish git mint rbenv
 
 echo "Installing nvm..."
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.2/install.sh | bash

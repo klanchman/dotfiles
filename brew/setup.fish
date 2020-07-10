@@ -9,7 +9,6 @@ set BREWS \
   hub \
   imagemagick \
   jq \
-  mint \
   mitmproxy \
   shellcheck \
   telnet \

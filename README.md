@@ -7,6 +7,7 @@ Dotfiles for macOS.
 - brew
 - fish
 - git
+- mint
 - nvm
 - rbenv
 
