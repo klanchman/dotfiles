@@ -19,6 +19,12 @@ Run the following script to get prerequisites installed:
 
 You'll probably want to have Xcode installed before that though.
 
+### Other Prerequisites
+
+These are not automatically installed.
+
+- [Comment Here for Xcode](https://apps.apple.com/us/app/comment-here/id1406737173?mt=12)
+
 ## Install
 
 **NB**: Existing files will be overwritten without prompting! Make sure you have a backup.
