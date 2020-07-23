@@ -22,6 +22,8 @@ alias gfa 'git fetch --all --prune'
 alias gg 'git graph'
 alias gmt 'git mergetool --no-prompt'
 alias gpsup 'git push --set-upstream origin (git_current_branch)'
+alias grba 'git rebase --abort'
+alias grbc 'git rebase --continue'
 alias gs 'git status'
 
 alias gitconfig 'vim ~/.gitconfig'
