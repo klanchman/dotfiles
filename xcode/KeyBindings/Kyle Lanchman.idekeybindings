@@ -956,24 +956,19 @@
 			</array>
 			<key>~$</key>
 			<array>
-				<string>moveToBeginningOfLine:</string>
-				<string>deleteToEndOfLine:</string>
-				<string>yank:</string>
-				<string>insertNewline:</string>
-				<string>moveToBeginningOfLine:</string>
-				<string>yank:</string>
-				<string>moveUp:</string>
+				<string>selectParagraph:</string>
+				<string>delete:</string>
+				<string>yankAndSelect:</string>
+				<string>moveToBeginningOfText:</string>
+				<string>yankAndSelect:</string>
 			</array>
 			<key>~$</key>
 			<array>
-				<string>moveToBeginningOfLine:</string>
-				<string>deleteToEndOfLine:</string>
+				<string>selectParagraph:</string>
+				<string>delete:</string>
 				<string>yank:</string>
-				<string>insertNewline:</string>
-				<string>setMark:</string>
-				<string>moveToBeginningOfLine:</string>
-				<string>selectToMark:</string>
-				<string>yank:</string>
+				<string>moveToBeginningOfParagraph:</string>
+				<string>yankAndSelect:</string>
 			</array>
 		</dict>
 		<key>Version</key>

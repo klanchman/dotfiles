@@ -4,10 +4,10 @@
 <dict>
   <key>Custom</key>
   <dict>
-    <key>Copy Line Down</key>
-    <string>moveToBeginningOfLine:, deleteToEndOfLine:, yank:, insertNewline:, setMark:, moveToBeginningOfLine:, selectToMark:, yank:</string>
-    <key>Copy Line Up</key>
-    <string>moveToBeginningOfLine:, deleteToEndOfLine:, yank:, insertNewline:, moveToBeginningOfLine:, yank:, moveUp:</string>
+    <key>Duplicate Current Lines Down</key>
+    <string>selectParagraph:, delete:, yank:, moveToBeginningOfParagraph:, yankAndSelect:</string>
+    <key>Duplicate Current Lines Up</key>
+    <string>selectParagraph:, delete:, yankAndSelect:, moveToBeginningOfText:, yankAndSelect:</string>
     <key>Insert New Line Below</key>
     <string>moveToEndOfLine:, insertNewline:</string>
   </dict>
