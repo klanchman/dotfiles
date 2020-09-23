@@ -22,6 +22,7 @@ abbr grb 'git rebase'
 abbr gr 'git restore'
 abbr gst 'git stash'
 abbr gw 'git switch'
+abbr gwc 'git switch -c'
 
 ## reset
 abbr gre 'git reset'
