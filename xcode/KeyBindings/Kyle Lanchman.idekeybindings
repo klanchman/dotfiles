@@ -546,6 +546,24 @@
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
 				<key>Group</key>
+				<string>Editor Menu for SiriKit Intent Definition</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEIntentBuilderEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Show Editor Only</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_showEditorOnly:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
+				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
 				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
@@ -600,27 +618,9 @@
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
 				<key>Group</key>
-				<string>Editor Menu for View Debugger</string>
+				<string>Editor Menu for View Hierarchy</string>
 				<key>GroupID</key>
 				<string>Xcode.DBGViewDebuggerEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Editor Only</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_showEditorOnly:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
-				<key>Group</key>
-				<string>GPUDebugger.Standard.EditorMenuDefinition.Title Menu for Xcode.GPUDebugger.EditorDocument.GPUReportDocument-title</string>
-				<key>GroupID</key>
-				<string>GPUDebugger.Standard.EditorMenuDefinition</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Navigation</key>
