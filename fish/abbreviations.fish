@@ -43,3 +43,7 @@ abbr ys 'yarn start'
 abbr yt 'yarn test'
 abbr ytw 'yarn test --watch'
 abbr ytwnv 'yarn test --watch --no-verbose'
+
+# Misc
+
+abbr ydl 'youtube-dl'
