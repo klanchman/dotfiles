@@ -112,7 +112,8 @@
     "state.ts": "redux-store",
     ".env.development.local": "tune",
     ".env.production.local": "tune",
-    ".env.test": "tune"
+    ".env.test": "tune",
+    "*.stencil": "swift"
   },
   "material-icon-theme.folders.associations": {
     "types": "typescript",
