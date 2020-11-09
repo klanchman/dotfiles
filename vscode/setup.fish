@@ -18,6 +18,7 @@ set EXTENSIONS \
   castwide.solargraph \
   christian-kohler.path-intellisense \
   davidnussio.vscode-jq-playground \
+  digitalbrainstem.javascript-ejs-support \
   eamodio.gitlens \
   esbenp.prettier-vscode \
   firefox-devtools.vscode-firefox-debug \
@@ -35,7 +36,6 @@ set EXTENSIONS \
   msjsdiag.debugger-for-chrome \
   naumovs.color-highlight \
   PKief.material-icon-theme \
-  QassimFarid.ejs-language-support \
   rebornix.ruby \
   redhat.vscode-yaml \
   ryu1kn.partial-diff \
