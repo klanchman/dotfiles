@@ -18,7 +18,7 @@ set EXTENSIONS \
   castwide.solargraph \
   christian-kohler.path-intellisense \
   davidnussio.vscode-jq-playground \
-  digitalbrainstem.javascript-ejs-support \
+  DigitalBrainstem.javascript-ejs-support \
   eamodio.gitlens \
   esbenp.prettier-vscode \
   firefox-devtools.vscode-firefox-debug \
