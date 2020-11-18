@@ -37,8 +37,8 @@ if test "$WHERE_AM_I" = "W"
 
 end
 
-set CURRENT_BREWS (brew list)
-set CURRENT_CASKS (brew cask list)
+set CURRENT_BREWS (brew list --formula)
+set CURRENT_CASKS (brew list --cask)
 
 for BREW in $BREWS
   if contains $BREW $CURRENT_BREWS
