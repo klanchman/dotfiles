@@ -4,6 +4,7 @@
 
 [core]
   excludesfile = /Users/klanchman/.gitignore_global
+  editor = /usr/bin/vim
 
 [diff]
   tool = vscode
