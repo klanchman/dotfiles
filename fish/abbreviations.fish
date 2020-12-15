@@ -34,6 +34,12 @@ abbr gwta 'git worktree add'
 abbr gwtl 'git worktree list'
 abbr gwtp 'git worktree prune'
 
+# npm
+abbr n npm
+abbr nr 'npm run'
+abbr ns 'npm start'
+abbr nt 'npm run test'
+
 # xcrun simctl
 abbr sim 'xcrun simctl'
 
