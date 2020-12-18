@@ -21,7 +21,6 @@ set EXTENSIONS \
   DigitalBrainstem.javascript-ejs-support \
   eamodio.gitlens \
   esbenp.prettier-vscode \
-  firefox-devtools.vscode-firefox-debug \
   Ionide.Ionide-fsharp \
   JohannesRudolph.file-ext-switcher \
   kumar-harsh.graphql-for-vscode \
@@ -33,7 +32,6 @@ set EXTENSIONS \
   ms-vscode.cpptools \
   ms-vscode.vscode-typescript-tslint-plugin \
   ms-vsliveshare.vsliveshare \
-  msjsdiag.debugger-for-chrome \
   naumovs.color-highlight \
   PKief.material-icon-theme \
   rebornix.ruby \
