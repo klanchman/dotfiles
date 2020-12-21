@@ -2,6 +2,7 @@
 
 set MINT_PKGS \
   erica/xcopen \
+  klanchman/untrack \
 
 for MINT_PKG in $MINT_PKGS
   mint install $MINT_PKG
