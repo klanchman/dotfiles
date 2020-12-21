@@ -29,6 +29,12 @@ alias gs 'git status'
 
 alias gitconfig 'vim ~/.gitconfig'
 
+# swift
+alias spg 'swift package generate-xcodeproj'
+alias spgo 'swift package generate-xcodeproj && xcopen'
+alias spr 'swift package resolve'
+alias spu 'swift package update'
+
 # yarn
 alias ycc 'yarn cache clean'
 alias yout 'yarn outdated'

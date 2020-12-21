@@ -43,6 +43,12 @@ abbr nt 'npm run test'
 # xcrun simctl
 abbr sim 'xcrun simctl'
 
+# swift
+abbr s swift
+abbr sb 'swift build'
+abbr sr 'swift run'
+abbr sp 'swift package'
+
 # yarn
 abbr y yarn
 abbr ys 'yarn start'
@@ -52,4 +58,5 @@ abbr ytwnv 'yarn test --watch --no-verbose'
 
 # Misc
 
+abbr ut 'untrack'
 abbr ydl 'youtube-dl'
