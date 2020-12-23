@@ -6,7 +6,7 @@ set BREWS \
   asimov \
   carthage \
   ffmpeg \
-  hub \
+  gh \
   imagemagick \
   jq \
   mitmproxy \
