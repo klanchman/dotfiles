@@ -20,7 +20,6 @@
   "files.associations": {
     "*.apns": "json",
     "*.plist": "xml",
-    ".env*": "ini"
   },
   "files.exclude": {
     "**/.git": true,

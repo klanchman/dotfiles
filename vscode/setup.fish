@@ -27,6 +27,7 @@ set EXTENSIONS \
   mariomatheu.syntax-project-pbxproj \
   mechatroner.rainbow-csv \
   mermade.openapi-lint \
+  mikestead.dotenv \
   mrmlnc.vscode-scss \
   ms-dotnettools.csharp \
   ms-vscode.cpptools \
