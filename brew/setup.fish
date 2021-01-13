@@ -10,6 +10,7 @@ set BREWS \
   imagemagick \
   jq \
   mitmproxy \
+  robotsandpencils/made/xcodes \
   shellcheck \
   telnet \
   yarn \
