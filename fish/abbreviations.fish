@@ -35,6 +35,16 @@ abbr gwta 'git worktree add'
 abbr gwtl 'git worktree list'
 abbr gwtp 'git worktree prune'
 
+# kubectl
+abbr k kubectl
+abbr kcos 'kubectl config set-context'
+abbr ke 'kubectl edit'
+abbr kec 'kubectl edit configmaps'
+abbr kg 'kubectl get'
+abbr kgc 'kubectl get configmaps'
+abbr kgp 'kubectl get pods'
+abbr kl 'kubectl logs'
+
 # npm
 abbr n npm
 abbr nr 'npm run'

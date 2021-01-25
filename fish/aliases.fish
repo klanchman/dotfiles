@@ -29,6 +29,9 @@ alias gs 'git status'
 
 alias gitconfig 'vim ~/.gitconfig'
 
+# kubectl
+alias kcog 'kubectl config get-contexts'
+
 # swift
 alias spg 'swift package generate-xcodeproj'
 alias spgo 'swift package generate-xcodeproj && xcopen'
