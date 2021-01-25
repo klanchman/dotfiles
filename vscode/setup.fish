@@ -45,6 +45,7 @@ set EXTENSIONS \
   streetsidesoftware.code-spell-checker \
   timonwong.shellcheck \
   wayou.vscode-todo-highlight \
+  wmaurer.change-case \
 
 set CURRENT_EXTENSIONS (code --list-extensions)
 
