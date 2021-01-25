@@ -33,14 +33,11 @@ set -U fish_pager_color_description 'B3A06D'  'yellow'
 set -U fish_pager_color_prefix 'white'  '--bold'  '--underline'
 set -U fish_pager_color_progress 'brwhite'  '--background=cyan'
 
-# Install `bass`
-mkdir -p ~/git-repos
-if test -d ~/git-repos/bass
-  cd ~/git-repos/bass
-  git pull
-else
-  git clone git@github.com:edc/bass.git ~/git-repos/bass
-  cd ~/git-repos/bass
+# Install `fisher` if needed
+if not functions -n | grep fisher > /dev/null
+  echo "Installing fisher..."
+  curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 end
-make install
-cd -
+
+# Install/update fish plugins
+fisher update
