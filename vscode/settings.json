@@ -101,7 +101,6 @@
   ],
 
   "gitlens.codeLens.enabled": false,
-  "gitlens.views.repositories.enabled": false,
 
   "liveshare.featureSet": "stable",
 
@@ -109,8 +108,7 @@
     "actions.ts": "redux-action",
     "reducer.ts": "redux-reducer",
     "state.ts": "redux-store",
-    ".env.development.local": "tune",
-    ".env.production.local": "tune",
+    ".env.*.local": "tune",
     ".env.test": "tune",
     "*.stencil": "swift"
   },
