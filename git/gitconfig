@@ -24,3 +24,5 @@
   pr = "!f() { git fetch $1 pull/$2/head:pull/$2 && git checkout pull/$2; }; f"
 [pull]
 	rebase = false
+[init]
+	defaultBranch = main
