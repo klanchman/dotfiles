@@ -4,37 +4,13 @@ read -P "[H]ome or [W]ork? " WHERE_AM_I
 
 set BREWS \
   asimov \
-  carthage \
-  ffmpeg \
-  gh \
-  imagemagick \
-  jq \
-  mitmproxy \
-  robotsandpencils/made/xcodes \
-  shellcheck \
-  telnet \
-  yarn \
 
 set CASKS \
   betterzip \
-  qlcolorcode \
-  qlimagesize \
-  qlstephen \
 
 if test "$WHERE_AM_I" = "H"
   set -a BREWS \
-    hugo \
-    mkvtoolnix \
     mp3val \
-    mpv \
-    xdelta \
-
-end
-
-if test "$WHERE_AM_I" = "W"
-  set -a BREWS \
-    dnsmasq \
-    nginx \
 
 end
 
@@ -54,7 +30,7 @@ for CASK in $CASKS
     continue
   end
 
-  brew cask install $CASK
+  brew install --cask $CASK
 end
 
 echo "Enabling Brew services, you may be prompted for your password"

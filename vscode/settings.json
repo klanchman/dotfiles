@@ -34,9 +34,17 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "search.showLineNumbers": true,
+  "terminal.integrated.defaultProfile.osx": "fish",
   "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.profiles.osx": {
+    "fish": {
+      "path": "/opt/local/bin/fish",
+      "args": [
+        "-l"
+      ]
+    }
+  },
   "terminal.integrated.scrollback": 2000,
-  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "window.autoDetectColorScheme": true,
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,

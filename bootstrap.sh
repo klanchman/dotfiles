@@ -2,19 +2,29 @@
 
 set -e
 
-echo "Installing Homebrew..."
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+if ! command -v port > /dev/null; then
+  echo "MacPorts is not installed. Please install MacPorts first, then run this script again."
+  exit 1
+fi
+
+if ! command -v port > /dev/null; then
+  echo "Homebrew is not installed. Please install Homebrew first, then run this script again."
+  exit 1
+fi
+
+echo "[sudo] Installing required ports..."
+sudo port install fish git rbenv
 
 echo "Installing required Homebrew packages..."
-brew install fish git mint rbenv
+brew install mint
 
 echo "Installing nvm..."
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.37.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.38.0/install.sh | bash
 
 echo "[sudo] Adding fish to /etc/shells..."
-echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+echo "/opt/local/bin/fish" | sudo tee -a /etc/shells
 
 echo "Changing default shell for user..."
-chsh -s /usr/local/bin/fish
+chsh -s /opt/local/bin/fish
 
 echo "You are now ready to run setup.fish!"
