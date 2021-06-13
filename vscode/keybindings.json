@@ -126,5 +126,10 @@
   {
     "key": "cmd+k cmd+down",
     "command": "workbench.action.moveEditorToBelowGroup"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.closeWindow",
+    "when": "!editorIsOpen && !multipleEditorGroups"
   }
 ]
