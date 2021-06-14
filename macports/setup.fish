@@ -9,7 +9,6 @@ set PORTS \
   "ImageMagick -x11" \
   inetutils \
   jq \
-  mkvtoolnix \
   port_cutleaves \
   py-mitmproxy \
   QLColorCode \
@@ -43,5 +42,5 @@ for PORT in $PORTS
     continue
   end
 
-  sudo port install $PORT
+  sudo port install (string split " " $PORT)
 end
