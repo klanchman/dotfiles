@@ -30,6 +30,7 @@ end
 if test "$WHERE_AM_I" = "W"
   set -a PORTS \
     dnsmasq \
+    jmeter \
     nginx \
 
 end

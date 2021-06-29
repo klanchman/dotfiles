@@ -163,5 +163,6 @@
       "overviewRulerColor": "rgba(160,215,211,0.8)"
     }
   ],
+  "redhat.telemetry.enabled": false,
   // #endregion - Extensions
 }
