@@ -30,6 +30,28 @@
 			</dict>
 			<dict>
 				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:com.ruiaureliano.xswiftformat.extension,IDESourceEditorExtensionCommand:com.ruiaureliano.xswiftformat.extension.SourceEditorCommand</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>~$F</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>X-SwiftFormat (v1.1.1)</string>
+				<key>Title</key>
+				<string>Format Swift Code</string>
+			</dict>
+			<dict>
+				<key>Action</key>
 				<string>cleanActiveRunContext:</string>
 				<key>Alternate</key>
 				<string>NO</string>
