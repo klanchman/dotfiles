@@ -13,7 +13,7 @@ if ! command -v port > /dev/null; then
 fi
 
 echo "[sudo] Installing required ports..."
-sudo port install fish git rbenv
+sudo port install fish git rbenv ruby-build
 
 echo "Installing required Homebrew packages..."
 brew install mint
