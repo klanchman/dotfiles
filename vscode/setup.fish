@@ -18,6 +18,7 @@ set EXTENSIONS \
   castwide.solargraph \
   christian-kohler.path-intellisense \
   davidnussio.vscode-jq-playground \
+  dbaeumer.vscode-eslint \
   DigitalBrainstem.javascript-ejs-support \
   eamodio.gitlens \
   esbenp.prettier-vscode \
