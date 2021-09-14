@@ -5,8 +5,8 @@ import SwiftUI
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: UIView {
-    init() {
-        super.init(frame: .zero)
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         setup()
     }
 
