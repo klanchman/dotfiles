@@ -20,7 +20,7 @@ set PORTS \
 
 if test "$WHERE_AM_I" = "H"
   set -a PORTS \
-    hugo \
+    "hugo +extended" \
     mkvtoolnix \
     mpv \
     xdelta \
