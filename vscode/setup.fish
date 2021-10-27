@@ -7,7 +7,7 @@ if not type -q code
     exit 1
   end
 
-  ln -s "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" /usr/local/bin/code
+  ln -s "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" ~/bin/code
 end
 
 set EXTENSIONS \
@@ -40,10 +40,10 @@ set EXTENSIONS \
   redhat.vscode-yaml \
   ryu1kn.partial-diff \
   sbrink.elm \
-  shinnn.stylelint \
   skyapps.fish-vscode \
   sleistner.vscode-fileutils \
   streetsidesoftware.code-spell-checker \
+  stylelint.vscode-stylelint \
   timonwong.shellcheck \
   wayou.vscode-todo-highlight \
   wmaurer.change-case \

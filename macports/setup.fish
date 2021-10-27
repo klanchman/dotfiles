@@ -44,5 +44,5 @@ for PORT in $PORTS
     continue
   end
 
-  sudo port install (string split " " $PORT)
+  sudo port -N install (string split " " $PORT)
 end
