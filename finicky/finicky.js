@@ -3,7 +3,18 @@
 
 module.exports = {
   defaultBrowser: "Safari",
-  rewrite: [],
+  rewrite: [
+    // Redirect Reddit links to old.reddit.com
+    {
+      match: finicky.matchHostnames(["www.reddit.com", "reddit.com"]),
+      url({ url }) {
+        return {
+          ...url,
+          host: 'old.reddit.com',
+        }
+      }
+    },
+  ],
   handlers: [
     // Open MS Teams links in Teams app
     {
