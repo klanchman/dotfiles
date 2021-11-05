@@ -17,6 +17,7 @@ set PORTS \
   xcodes \
   yarn \
   youtube-dl \
+  yt-dlp \
 
 if test "$WHERE_AM_I" = "H"
   set -a PORTS \
