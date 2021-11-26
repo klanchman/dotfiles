@@ -26,6 +26,7 @@ set EXTENSIONS \
   JohannesRudolph.file-ext-switcher \
   kumar-harsh.graphql-for-vscode \
   mariomatheu.syntax-project-pbxproj \
+  me-dutour-mathieu.vscode-github-actions \
   mechatroner.rainbow-csv \
   mermade.openapi-lint \
   mikestead.dotenv \
@@ -42,8 +43,10 @@ set EXTENSIONS \
   sbrink.elm \
   skyapps.fish-vscode \
   sleistner.vscode-fileutils \
+  speedy37.ascii-plist \
   streetsidesoftware.code-spell-checker \
   stylelint.vscode-stylelint \
+  svanimpe.stencil \
   timonwong.shellcheck \
   wayou.vscode-todo-highlight \
   wmaurer.change-case \
