@@ -45,7 +45,6 @@ set EXTENSIONS \
   sleistner.vscode-fileutils \
   speedy37.ascii-plist \
   streetsidesoftware.code-spell-checker \
-  stylelint.vscode-stylelint \
   svanimpe.stencil \
   timonwong.shellcheck \
   wayou.vscode-todo-highlight \

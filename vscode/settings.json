@@ -46,7 +46,6 @@
   },
   "terminal.integrated.scrollback": 2000,
   "window.autoDetectColorScheme": true,
-  "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
     "editor.selectionBackground": "#EAE3CB",
