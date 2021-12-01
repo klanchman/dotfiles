@@ -13,13 +13,13 @@
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
-  "editor.renderIndentGuides": true,
   "editor.rulers": [80, 120],
   "editor.tabSize": 2,
   "editor.wordWrap": "off",
   "files.associations": {
     "*.apns": "json",
     "*.plist": "xml",
+    "Portfile": "tcl"
   },
   "files.exclude": {
     "**/.git": true,
@@ -39,9 +39,7 @@
   "terminal.integrated.profiles.osx": {
     "fish": {
       "path": "/opt/local/bin/fish",
-      "args": [
-        "-l"
-      ]
+      "args": ["-l"]
     }
   },
   "terminal.integrated.scrollback": 2000,
@@ -163,6 +161,6 @@
       "overviewRulerColor": "rgba(160,215,211,0.8)"
     }
   ],
-  "redhat.telemetry.enabled": false,
+  "redhat.telemetry.enabled": false
   // #endregion - Extensions
 }
