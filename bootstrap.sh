@@ -13,10 +13,7 @@ if ! command -v brew > /dev/null; then
 fi
 
 echo "[sudo] Installing required ports..."
-sudo port -N install fish git rbenv ruby-build
-
-echo "Installing required Homebrew packages..."
-brew install mint
+sudo port -N install fish git mint rbenv ruby-build
 
 echo "Installing nvm..."
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.39.0/install.sh | bash

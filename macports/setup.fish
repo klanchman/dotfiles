@@ -6,6 +6,7 @@ set PORTS \
   carthage \
   "ffmpeg +nonfree -x11" \
   gh \
+  glab \
   "ImageMagick -x11" \
   inetutils \
   jq \
