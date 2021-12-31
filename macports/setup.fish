@@ -3,6 +3,7 @@
 read -P "[H]ome or [W]ork? " WHERE_AM_I
 
 set PORTS \
+  1password-cli \
   carthage \
   "ffmpeg +nonfree -x11" \
   gh \
@@ -14,6 +15,7 @@ set PORTS \
   py-mitmproxy \
   QLColorCode \
   QLStephen \
+  qrencode \
   shellcheck \
   xcodes \
   yarn \
@@ -35,6 +37,8 @@ if test "$WHERE_AM_I" = "W"
     dnsmasq \
     jmeter \
     nginx \
+    py-awscli \
+    wireshark3 \
 
 end
 

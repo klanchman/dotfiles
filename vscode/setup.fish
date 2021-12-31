@@ -10,12 +10,13 @@ if not type -q code
   ln -s "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" ~/bin/code
 end
 
+read -P "[H]ome or [W]ork? " WHERE_AM_I
+
 set EXTENSIONS \
   abusaidm.html-snippets \
   Arjun.swagger-viewer \
   budparr.language-hugo-vscode \
   bungcip.better-toml \
-  castwide.solargraph \
   christian-kohler.path-intellisense \
   davidnussio.vscode-jq-playground \
   dbaeumer.vscode-eslint \
@@ -32,9 +33,8 @@ set EXTENSIONS \
   mikestead.dotenv \
   mrmlnc.vscode-scss \
   ms-dotnettools.csharp \
-  ms-vscode.cpptools \
   ms-vscode.vscode-typescript-tslint-plugin \
-  ms-vsliveshare.vsliveshare \
+  mykhailogrebonkin.apple-crashlog \
   naumovs.color-highlight \
   PKief.material-icon-theme \
   rebornix.ruby \
@@ -49,6 +49,13 @@ set EXTENSIONS \
   timonwong.shellcheck \
   wayou.vscode-todo-highlight \
   wmaurer.change-case \
+
+if test "$WHERE_AM_I" = "W"
+  set -a EXTENSIONS \
+    ms-azuretools.vscode-bicep \
+    ms-vsliveshare.vsliveshare \
+
+end
 
 set CURRENT_EXTENSIONS (code --list-extensions)
 

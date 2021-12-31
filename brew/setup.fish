@@ -14,6 +14,15 @@ if test "$WHERE_AM_I" = "H"
 
 end
 
+if test "$WHERE_AM_I" = "W"
+  set -a BREWS \
+    azure-cli \
+
+  set -a CASKS \
+    ngrok \
+
+end
+
 set CURRENT_BREWS (brew list --formula)
 set CURRENT_CASKS (brew list --cask)
 
