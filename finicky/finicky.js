@@ -32,5 +32,10 @@ module.exports = {
       match: ["figma.com*", finicky.matchDomains(/.*\.figma\.com/)],
       browser: "Firefox",
     },
+    {
+      // Open Google links in Firefox
+      match: ["google.com*", finicky.matchDomains(/.*\.google.com/)],
+      browser: "Firefox",
+    },
   ],
 }

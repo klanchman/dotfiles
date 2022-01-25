@@ -50,6 +50,7 @@ abbr n npm
 abbr nr 'npm run'
 abbr ns 'npm start'
 abbr nt 'npm run test'
+abbr nb 'npm run build'
 
 # xcrun simctl
 abbr sim 'xcrun simctl'
