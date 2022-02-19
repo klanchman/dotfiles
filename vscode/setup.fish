@@ -23,9 +23,9 @@ set EXTENSIONS \
   DigitalBrainstem.javascript-ejs-support \
   eamodio.gitlens \
   esbenp.prettier-vscode \
+  graphql.vscode-graphql \
   Ionide.Ionide-fsharp \
   JohannesRudolph.file-ext-switcher \
-  kumar-harsh.graphql-for-vscode \
   mariomatheu.syntax-project-pbxproj \
   me-dutour-mathieu.vscode-github-actions \
   mechatroner.rainbow-csv \
