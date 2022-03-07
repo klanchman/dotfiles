@@ -162,8 +162,6 @@
     }
   ],
   "redhat.telemetry.enabled": false,
-  "cSpell.enableFiletypes": [
-    "bicep"
-  ]
+  "cSpell.enableFiletypes": ["bicep"]
   // #endregion - Extensions
 }

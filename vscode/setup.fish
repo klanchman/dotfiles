@@ -15,6 +15,8 @@ read -P "[H]ome or [W]ork? " WHERE_AM_I
 set EXTENSIONS \
   abusaidm.html-snippets \
   Arjun.swagger-viewer \
+  bierner.markdown-mermaid \
+  bpruitt-goddard.mermaid-markdown-syntax-highlighting \
   budparr.language-hugo-vscode \
   bungcip.better-toml \
   christian-kohler.path-intellisense \
