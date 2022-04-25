@@ -9,6 +9,7 @@ set PORTS \
   exa \
   "ffmpeg +nonfree -x11" \
   gh \
+  git-delta \
   glab \
   "ImageMagick -x11" \
   inetutils \

@@ -5,6 +5,10 @@
 [core]
   excludesfile = /Users/klanchman/.gitignore_global
   editor = /usr/bin/vim
+  # pager = "delta"
+  # pager = "my-delta"
+  # pager = "fish -c 'delta --(os_theme)'"
+  pager = "fish -c delta"
 
 [diff]
   tool = vscode
@@ -26,3 +30,12 @@
 	rebase = false
 [init]
 	defaultBranch = main
+
+[delta]
+  syntax-theme = ansi
+
+[delta "light"]
+  light = true
+
+[delta "dark"]
+  dark = true
