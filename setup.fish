@@ -19,7 +19,21 @@ end
 #-----
 # Main
 
-for CONCERN in (find (pwd) -type d -depth 1 -not -name '.git' -not -name 'Extras')
+if test (count $argv) -gt 0
+  for arg in $argv
+    set -a CONCERNS (find (pwd) -type d -depth 1 -not -name '.git' -not -name 'Extras' -name $arg)
+  end
+  echo "Only handling the given concerns: $CONCERNS"
+else
+  set CONCERNS (find (pwd) -type d -depth 1 -not -name '.git' -not -name 'Extras')
+end
+
+if test (count $CONCERNS) -lt 1
+  echo "Could not find any of the given concerns"
+  exit 1
+end
+
+for CONCERN in $CONCERNS
   if test -f $CONCERN/$SCRIPT_FILE
     # Use `source` so that interactive setup scripts can do what they need to
     source $CONCERN/$SCRIPT_FILE
