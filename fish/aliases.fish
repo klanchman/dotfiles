@@ -1,4 +1,5 @@
 # General
+alias lss exa
 alias reload 'source ~/.config/fish/config.fish'
 
 # docker / docker-compose

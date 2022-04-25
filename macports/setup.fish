@@ -4,12 +4,16 @@ read -P "[H]ome or [W]ork? " WHERE_AM_I
 
 set PORTS \
   1password-cli \
+  bat \
   carthage \
+  exa \
   "ffmpeg +nonfree -x11" \
   gh \
   glab \
   "ImageMagick -x11" \
   inetutils \
+  jless \
+  jo \
   jq \
   port_cutleaves \
   py-mitmproxy \
@@ -18,6 +22,7 @@ set PORTS \
   qrencode \
   shellcheck \
   xcodes \
+  xh \
   yarn \
   youtube-dl \
   yt-dlp \
