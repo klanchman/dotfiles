@@ -4,6 +4,7 @@ read -P "[H]ome or [W]ork? " WHERE_AM_I
 
 set PORTS \
   1password-cli \
+  bash \
   bat \
   carthage \
   exa \

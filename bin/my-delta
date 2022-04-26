@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+mode="light"
+
+if defaults read -g AppleInterfaceStyle &> /dev/null; then
+  mode="dark"
+fi
+
+theme="Solarized ($mode)"
+
+delta --syntax-theme "$theme" --$mode
