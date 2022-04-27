@@ -8,4 +8,4 @@ fi
 
 theme="Solarized ($mode)"
 
-delta --syntax-theme "$theme" --$mode
+delta --syntax-theme "$theme" --$mode "$@"
