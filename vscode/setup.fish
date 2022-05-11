@@ -13,8 +13,8 @@ end
 read -P "[H]ome or [W]ork? " WHERE_AM_I
 
 set EXTENSIONS \
+  42crunch.vscode-openapi \
   abusaidm.html-snippets \
-  Arjun.swagger-viewer \
   bierner.markdown-mermaid \
   bpruitt-goddard.mermaid-markdown-syntax-highlighting \
   budparr.language-hugo-vscode \
