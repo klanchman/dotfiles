@@ -7,7 +7,9 @@ set PORTS \
   bash \
   bat \
   carthage \
+  choose \
   exa \
+  fd \
   "ffmpeg +nonfree -x11" \
   gh \
   git-delta \
