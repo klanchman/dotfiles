@@ -816,9 +816,9 @@
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
 				<key>Group</key>
-				<string>Editor Menu for Xcode Cloud Build Report</string>
+				<string>Xcode.IDELogNavigator.MenuDefinition.EditorAndOpenInWorkspace Menu for Xcode.IDEKit.EditorDocument.CoverageReportDocument-title</string>
 				<key>GroupID</key>
-				<string>Xcode.Skywagon.DocumentEditorMenu</string>
+				<string>Xcode.IDELogNavigator.MenuDefinition.EditorAndOpenInWorkspace</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Navigation</key>
@@ -834,9 +834,9 @@
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
 				<key>Group</key>
-				<string>Xcode.IDELogNavigator.MenuDefinition.EditorAndOpenInWorkspace Menu for Xcode.IDEKit.EditorDocument.CoverageReportDocument-title</string>
+				<string>Editor Menu for Xcode.IDEKit.EditorDocument.XcodeCloud.BuildReport.Title</string>
 				<key>GroupID</key>
-				<string>Xcode.IDELogNavigator.MenuDefinition.EditorAndOpenInWorkspace</string>
+				<string>Xcode.XcodeCloud.DocumentEditorMenu</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Navigation</key>
