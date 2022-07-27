@@ -3,6 +3,9 @@
 
 module.exports = {
   defaultBrowser: "Safari",
+  options: {
+    urlShorteners: (list) => [...list, "zpl.io"],
+  },
   rewrite: [
     // Redirect Reddit links to old.reddit.com
     {
@@ -26,6 +29,11 @@ module.exports = {
           protocol: "msteams",
         }
       },
+    },
+    {
+      // Open Zeplin links in Zeplin app
+      match: [finicky.matchDomains(/app\.zeplin\.io/)],
+      browser: "io.zeplin.osx",
     },
     {
       // Open Figma links in Firefox
