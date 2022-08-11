@@ -1,10 +1,21 @@
 // Place your settings in this file to overwrite the default settings
 {
+  // Workaround for https://github.com/microsoft/vscode/issues/146403
+  "editor.mouseWheelScrollSensitivity": 0.5,
+  "workbench.list.mouseWheelScrollSensitivity": 0.5,
+  "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
+
+  // Workaround for:
+  // - https://github.com/microsoft/vscode/issues/157325
+  // - https://github.com/microsoft/vscode/issues/153800
+  "git.mergeEditor": false,
+
   // #region - General
   "breadcrumbs.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.comments.ignoreEmptyLines": false,
   "editor.cursorStyle": "block",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": true,
