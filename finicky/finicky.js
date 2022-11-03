@@ -41,8 +41,18 @@ module.exports = {
       browser: "Firefox",
     },
     {
+      // Open Miro links in Firefox
+      match: ["miro.com*", finicky.matchDomains(/.*\.miro\.com/)],
+      browser: "Firefox",
+    },
+    {
       // Open Google links in Firefox
       match: ["google.com*", finicky.matchDomains(/.*\.google.com/)],
+      browser: "Firefox",
+    },
+    {
+      // Open Tailscale links in Firefox
+      match: ["tailscale.com*", finicky.matchDomains(/.*\.tailscale.com/)],
       browser: "Firefox",
     },
   ],
