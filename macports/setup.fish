@@ -25,6 +25,7 @@ set PORTS \
   QLStephen \
   qrencode \
   shellcheck \
+  unxip \
   xcodes \
   xh \
   yarn \
