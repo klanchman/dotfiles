@@ -15,10 +15,11 @@ read -P "[H]ome or [W]ork? " WHERE_AM_I
 set EXTENSIONS \
   42crunch.vscode-openapi \
   abusaidm.html-snippets \
+  aster.vscode-subtitles \
   bierner.markdown-mermaid \
+  bkromhout.vscode-tcl \
   bpruitt-goddard.mermaid-markdown-syntax-highlighting \
   budparr.language-hugo-vscode \
-  bungcip.better-toml \
   christian-kohler.path-intellisense \
   davidnussio.vscode-jq-playground \
   dbaeumer.vscode-eslint \
@@ -48,6 +49,7 @@ set EXTENSIONS \
   speedy37.ascii-plist \
   streetsidesoftware.code-spell-checker \
   svanimpe.stencil \
+  tamasfe.even-better-toml \
   timonwong.shellcheck \
   wayou.vscode-todo-highlight \
   wmaurer.change-case \
