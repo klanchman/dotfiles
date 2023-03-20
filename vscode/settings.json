@@ -89,6 +89,9 @@
 
   "color-highlight.markerType": "underline",
 
+  "cSpell.enableFiletypes": [
+    "bicep"
+  ],
   "cSpell.userWords": [
     "accum",
     "atts",
@@ -132,8 +135,6 @@
 
   "gitlens.codeLens.enabled": false,
 
-  "liveshare.featureSet": "stable",
-
   "material-icon-theme.files.associations": {
     "actions.ts": "redux-action",
     "reducer.ts": "redux-reducer",
@@ -148,9 +149,9 @@
     "store": "redux-store"
   },
 
-  "omnisharp.useGlobalMono": "never",
-
   "prettier.requireConfig": true,
+
+  "redhat.telemetry.enabled": false,
 
   "todohighlight.keywords": [
     {
@@ -184,7 +185,5 @@
       "overviewRulerColor": "rgba(160,215,211,0.8)"
     }
   ],
-  "redhat.telemetry.enabled": false,
-  "cSpell.enableFiletypes": ["bicep"]
   // #endregion - Extensions
 }
