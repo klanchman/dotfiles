@@ -11,6 +11,9 @@
   "git.mergeEditor": false,
 
   // #region - General
+  "[swift]": {
+    "editor.defaultFormatter": "vknabel.vscode-apple-swift-format"
+  },
   "breadcrumbs.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -75,6 +78,15 @@
   // #endregion - Languages
 
   // #region - Extensions
+  "apple-swift-format.path": [
+    "~/.mint/packages/github.com_apple_swift-format/build/0.50700.1/swift-format"
+  ],
+  "apple-swift-format.onlyEnableWithConfig": true,
+  "apple-swift-format.configSearchPaths": [
+    ".swift-format",
+    "swift-format.json",
+  ],
+
   "color-highlight.markerType": "underline",
 
   "cSpell.userWords": [
