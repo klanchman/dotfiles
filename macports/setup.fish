@@ -5,6 +5,9 @@ sudo ln -sf (pwd)/macports/archive_sites.conf $DESTINATION/archive_sites.conf
 sudo ln -sf (pwd)/macports/macports.conf $DESTINATION/macports.conf
 sudo ln -sf (pwd)/macports/sources.conf $DESTINATION/sources.conf
 
+mkdir -p ~/code/macports-local
+sudo port selfupdate
+
 read -P "[H]ome or [W]ork? " WHERE_AM_I
 
 set PORTS \
