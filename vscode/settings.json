@@ -11,9 +11,6 @@
   "git.mergeEditor": false,
 
   // #region - General
-  "[swift]": {
-    "editor.defaultFormatter": "vknabel.vscode-apple-swift-format"
-  },
   "breadcrumbs.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -32,6 +29,8 @@
   "editor.wordWrap": "off",
   "files.associations": {
     "*.apns": "json",
+    ".env": "dotenv",
+    ".env.*": "dotenv",
     "*.plist": "xml",
     "Portfile": "tcl"
   },
@@ -74,6 +73,10 @@
   // #endregion - General
 
   // #region - Languages
+  "[swift]": {
+    "editor.defaultFormatter": "vknabel.vscode-apple-swift-format"
+  },
+  "javascript.preferences.useAliasesForRenames": false,
   "typescript.preferences.importModuleSpecifier": "relative",
   // #endregion - Languages
 
@@ -139,8 +142,7 @@
     "actions.ts": "redux-action",
     "reducer.ts": "redux-reducer",
     "state.ts": "redux-store",
-    ".env.*.local": "tune",
-    ".env.test": "tune",
+    ".env.*": "tune",
     "*.stencil": "swift"
   },
   "material-icon-theme.folders.associations": {
