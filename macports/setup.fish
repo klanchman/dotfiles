@@ -16,6 +16,7 @@ set PORTS \
   bat \
   carthage \
   choose \
+  colima \
   exa \
   fd \
   "ffmpeg +nonfree -x11" \
