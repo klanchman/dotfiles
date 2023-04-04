@@ -73,11 +73,17 @@
   // #endregion - General
 
   // #region - Languages
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
   "[swift]": {
     "editor.defaultFormatter": "vknabel.vscode-apple-swift-format"
   },
   "javascript.preferences.useAliasesForRenames": false,
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown.preview.scrollPreviewWithEditor": false,
   "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.useAliasesForRenames": false,
   // #endregion - Languages
 
   // #region - Extensions
