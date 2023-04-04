@@ -38,6 +38,35 @@
 					<string>MIME_Types</string>
 				</dict>
 			</dict>
+			<key>NSDateFormatter</key>
+			<dict>
+				<key>date</key>
+				<date>2023-04-04T14:09:04Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>xcode</string>
+						<string>apple</string>
+						<string>cocoa touch</string>
+						<string>iphone</string>
+						<string>ipad</string>
+						<string>ios</string>
+						<string>mac os x</string>
+						<string>macosx</string>
+						<string>objc</string>
+						<string>objectivec</string>
+						<string>objective c</string>
+						<string>swift</string>
+					</array>
+					<key>name</key>
+					<string>NSDateFormatter</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>NSDateFormatter</string>
+				</dict>
+			</dict>
 			<key>Regular_Expressions</key>
 			<dict>
 				<key>date</key>
