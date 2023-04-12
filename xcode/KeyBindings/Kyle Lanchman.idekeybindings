@@ -68,26 +68,6 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Clean</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>cleanBuildFolder:</string>
-				<key>Alternate</key>
-				<string>YES</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.CleanBuildFolder</string>
-				<key>Group</key>
-				<string>Product Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^~$K</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
 				<string>Clean Build Folder…</string>
 			</dict>
 			<dict>
@@ -692,7 +672,7 @@
 				<key>Group</key>
 				<string>Editor Menu for Playground</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
+				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Navigation</key>
@@ -914,7 +894,7 @@
 				<key>Group</key>
 				<string>Editor Menu for Playground</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
+				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Navigation</key>
@@ -982,7 +962,7 @@
 				<key>Group</key>
 				<string>Editor Menu for Playground</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
+				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
@@ -1054,7 +1034,7 @@
 				<key>Group</key>
 				<string>Editor Menu for Playground</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
+				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
@@ -1126,7 +1106,7 @@
 				<key>Group</key>
 				<string>Editor Menu for Playground</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
+				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
