@@ -22,6 +22,7 @@
   "editor.dragAndDrop": false,
   "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
   "editor.rulers": [80, 120],
