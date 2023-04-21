@@ -22,6 +22,22 @@
 					<string>HTTP_Status_Codes</string>
 				</dict>
 			</dict>
+			<key>LLDB_Commands</key>
+			<dict>
+				<key>date</key>
+				<date>2023-04-21T20:33:54Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>LLDB Commands</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>LLDB_Commands</string>
+				</dict>
+			</dict>
 			<key>MIME_Types</key>
 			<dict>
 				<key>date</key>
