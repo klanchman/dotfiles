@@ -202,6 +202,20 @@
 					<string>Alamofire/Alamofire</string>
 				</dict>
 			</dict>
+			<key>yonaskolb/XcodeGen</key>
+			<dict>
+				<key>date</key>
+				<date>2023-04-26T17:17:05Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>yonaskolb/XcodeGen</string>
+					<key>platform</key>
+					<string>github</string>
+					<key>uniqueIdentifier</key>
+					<string>yonaskolb/XcodeGen</string>
+				</dict>
+			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict/>
