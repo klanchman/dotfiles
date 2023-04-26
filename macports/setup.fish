@@ -39,6 +39,7 @@ set PORTS \
   xh \
   yarn \
   youtube-dl \
+  yq \
   yt-dlp \
 
 if test "$WHERE_AM_I" = "H"
