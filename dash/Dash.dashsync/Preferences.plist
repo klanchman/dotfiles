@@ -357,7 +357,24 @@
 	<key>docsets</key>
 	<dict>
 		<key>keywords</key>
-		<dict/>
+		<dict>
+			<key>~/Library/Application Support/Dash/Cheat Sheets/NSDateFormatter/NSDateFormatter.docset</key>
+			<string>date:</string>
+			<key>~/Library/Application Support/Dash/DocSets/JavaScript/JavaScript.docset</key>
+			<string>js:</string>
+			<key>~/Library/Application Support/Dash/DocSets/TypeScript/TypeScript.docset</key>
+			<string>ts:</string>
+			<key>~/Library/Application Support/Dash/GitHub/AlamofireAlamofire/Alamofire-Alamofire.docset</key>
+			<string>alamo:</string>
+			<key>~/Library/Application Support/Dash/GitHub/yonaskolbXcodeGen/yonaskolb-XcodeGen.docset</key>
+			<string>xcgen:</string>
+			<key>~/Library/Application Support/Dash/Versioned DocSets/NodeJS - DHDocsetDownloader/18-11-0/NodeJS.docset</key>
+			<string>node:</string>
+			<key>~/Library/Application Support/Dash/Versioned DocSets/PostgreSQL - DHDocsetDownloader/11-12/PostgreSQL.docset</key>
+			<string>pg:</string>
+			<key>~/Library/Application Support/Dash/Versioned DocSets/PostgreSQL - DHDocsetDownloader/14-5/PostgreSQL.docset</key>
+			<string>pg:</string>
+		</dict>
 	</dict>
 	<key>feeds</key>
 	<dict>
