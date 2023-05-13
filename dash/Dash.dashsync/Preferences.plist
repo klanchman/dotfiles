@@ -205,7 +205,7 @@
 			<key>hmlongco/Factory</key>
 			<dict>
 				<key>date</key>
-				<date>2023-05-08T21:51:52Z</date>
+				<date>2023-05-19T14:07:23Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -397,6 +397,8 @@
 			<string>apple:</string>
 			<key>~/Library/Application Support/Dash/DocSets/JavaScript/JavaScript.docset</key>
 			<string>js:</string>
+			<key>~/Library/Application Support/Dash/DocSets/SwiftLintCore/SwiftLintCore.docset</key>
+			<string>swiftlint:</string>
 			<key>~/Library/Application Support/Dash/DocSets/TypeScript/TypeScript.docset</key>
 			<string>ts:</string>
 			<key>~/Library/Application Support/Dash/GitHub/AlamofireAlamofire/Alamofire-Alamofire.docset</key>
@@ -450,6 +452,11 @@
 			<dict>
 				<key>date</key>
 				<date>2023-02-08T05:22:31Z</date>
+			</dict>
+			<key>https://realm.github.io/SwiftLint/docsets/SwiftLintCore.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2023-05-13T18:44:00Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
