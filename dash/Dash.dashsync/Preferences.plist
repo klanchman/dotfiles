@@ -191,7 +191,7 @@
 			<key>Alamofire/Alamofire</key>
 			<dict>
 				<key>date</key>
-				<date>2023-04-01T20:00:18Z</date>
+				<date>2023-05-11T14:05:32Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -202,10 +202,24 @@
 					<string>Alamofire/Alamofire</string>
 				</dict>
 			</dict>
+			<key>hmlongco/Factory</key>
+			<dict>
+				<key>date</key>
+				<date>2023-05-08T21:51:52Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>hmlongco/Factory</string>
+					<key>platform</key>
+					<string>github</string>
+					<key>uniqueIdentifier</key>
+					<string>hmlongco/Factory</string>
+				</dict>
+			</dict>
 			<key>yonaskolb/XcodeGen</key>
 			<dict>
 				<key>date</key>
-				<date>2023-04-26T17:17:05Z</date>
+				<date>2023-05-17T14:07:34Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -354,20 +368,47 @@
 	<true/>
 	<key>annotationsAreShown</key>
 	<false/>
+	<key>bookmarks</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>dash-apple-api://load?request_key=ls/documentation/bundleresources/information_property_list</string>
+			<key>platformImagePath</key>
+			<string>apple</string>
+			<key>title</key>
+			<string>Information Property List</string>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>https://developer.apple.com/design/human-interface-guidelines/</string>
+			<key>platformImagePath</key>
+			<string>Web</string>
+			<key>title</key>
+			<string>Human Interface Guidelines | Apple Developer Documentation</string>
+		</dict>
+	</array>
 	<key>docsets</key>
 	<dict>
 		<key>keywords</key>
 		<dict>
 			<key>~/Library/Application Support/Dash/Cheat Sheets/NSDateFormatter/NSDateFormatter.docset</key>
 			<string>date:</string>
+			<key>~/Library/Application Support/Dash/DocSets/Apple_API_Reference/Apple_API_Reference.docset</key>
+			<string>apple:</string>
 			<key>~/Library/Application Support/Dash/DocSets/JavaScript/JavaScript.docset</key>
 			<string>js:</string>
 			<key>~/Library/Application Support/Dash/DocSets/TypeScript/TypeScript.docset</key>
 			<string>ts:</string>
 			<key>~/Library/Application Support/Dash/GitHub/AlamofireAlamofire/Alamofire-Alamofire.docset</key>
 			<string>alamo:</string>
+			<key>~/Library/Application Support/Dash/GitHub/hmlongcoFactory/hmlongco-Factory.docset</key>
+			<string>factory:</string>
+			<key>~/Library/Application Support/Dash/GitHub/keanNuke/kean-Nuke.docset</key>
+			<string>nuke:</string>
 			<key>~/Library/Application Support/Dash/GitHub/yonaskolbXcodeGen/yonaskolb-XcodeGen.docset</key>
 			<string>xcgen:</string>
+			<key>~/Library/Application Support/Dash/User Contributed/Swift Language Guide/SwiftLanguageGuide.docset</key>
+			<string>swift:</string>
 			<key>~/Library/Application Support/Dash/Versioned DocSets/NodeJS - DHDocsetDownloader/18-11-0/NodeJS.docset</key>
 			<string>node:</string>
 			<key>~/Library/Application Support/Dash/Versioned DocSets/PostgreSQL - DHDocsetDownloader/11-12/PostgreSQL.docset</key>
@@ -458,6 +499,8 @@
 	<key>shouldShowStatusIcon</key>
 	<false/>
 	<key>shouldStartAtLogin</key>
+	<true/>
+	<key>shouldSyncBookmarks</key>
 	<true/>
 	<key>shouldSyncDocsets</key>
 	<true/>
@@ -582,5 +625,56 @@
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
+	<key>webSearches</key>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>Google</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<false/>
+			<key>name</key>
+			<string>Google</string>
+			<key>url</key>
+			<string>https://www.google.com/search?q={query}</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>DuckDuckGo</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>name</key>
+			<string>DuckDuckGo</string>
+			<key>url</key>
+			<string>https://duckduckgo.com/?q={query}&amp;ia=web</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>Stack Overflow</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>name</key>
+			<string>Stack Overflow</string>
+			<key>url</key>
+			<string>https://stackoverflow.com/search?q={query}</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAEKADAAQAAAABAAAAEAAAAAA0VXHyAAABIElEQVQ4EWP8//8/Awx0dnbCmOi0KFAgBYjnA/ELkGR5eTmIYmACk/gJYaD0QSBuAuIf6EpZ0AWw8IuBYppADHLBB3R5XC7gByoUgSo+BKStgHg1EEtCxeAUNgPKgLJ3gfgeEHcA8SsgtgbiB0AMEl8ExCBvgQG6F0KBosghCQopSGhB1IPIMCCeBMRvQRx0F2SDBAmAVKD8GZgadAPUYBI46O9A8X3IcugGMCNLYmGzAsXg/gfJoxvwFIsmZCFQmDUCMQ9MEN2AzTAJPHQAUG4uTB7dgOlAiTcwSTz0epgcugGgdI4eEzeBYl9gGoA0KEGtgPHR0wFIfBUQgwz2BeKlQLwNiJWAGJQeQHHfDMRwwIicG+GiJDDQvUCCVohSAOILLNvxlTYcAAAAAElFTkSuQmCC</string>
+			<key>icon@2x</key>
+			<string>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACIElEQVRYCe2XPUgcQRTHc2KwiNhLCHZJYSUKiloEG20DgVSi16QURPAEEYIichITEAQrQwgE1MIiVfCDIGiIiGgh2ohG8ANEBFHRIp6/B3sy6MybWe7gmjz4MbPvY95/93Zn9xKZTOZJIa3Y1TydTrtCmv8FwbfwB5bNxFQqZR7ez4vuZ7lP3rDEAnyCytDlnFcgdIEoL8k4YdSsGnN1mo8r8JIOo0aXX8w3jGN1mg8B7+lQGnW5YOyC2+jYO+RDQGPUZY3xNcgYbHHuATnLV/AMDmAHxAbgChbhObRAAvZhE1QLESA53SCXuiJa7YZxCb7Cb6iBeaiHpyAmP8MK9MEcWM0noIyqSZCzMq2Eg6YI02/Oiziog5/QAWPwyCRJM7m7HzbX8m0x6SEblNU0AQ1UtFmr4jn7Se9xlWgCWl1FMfzyRIgAp2kCqp1V4YHvpP7T0jUB5VphYGzdl6cJyD5OvjW0uHdH1ARcaisHxrxvRU2A7Ha52jvfApqALV9xQFzeE51aniZgQSuMERshV7Zjq2kCZAs9tlbFc8qLqddVogk4o2jaVRjT77yhNQHS4zOcx2xmS/9hc4rPJ2CXnEFXcaD/lLwPrlyfAKn7CLOuBQL88hTsufJCBMhu1g62rxv5BtyGv2CzIZzfbIGsz/dBks07ZNIMwyAvqROYghk4Atm2qyAJtXANX2AcVEsU+q9ZyE+gnkGuwf8CCn4F7gBidFBF+3A16QAAAABJRU5ErkJggg==</string>
+			<key>isEnabled</key>
+			<true/>
+			<key>name</key>
+			<string>Apple Developer</string>
+			<key>url</key>
+			<string>https://developer.apple.com/search/?q={query}&amp;type=Documentation</string>
+		</dict>
+	</array>
 </dict>
 </plist>
