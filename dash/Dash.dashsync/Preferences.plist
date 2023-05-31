@@ -191,7 +191,7 @@
 			<key>Alamofire/Alamofire</key>
 			<dict>
 				<key>date</key>
-				<date>2023-05-11T14:05:32Z</date>
+				<date>2023-05-22T14:02:54Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -358,6 +358,24 @@
 					<string>usercontribfish</string>
 					<key>uniqueIdentifier</key>
 					<string>fish</string>
+				</dict>
+			</dict>
+			<key>jq</key>
+			<dict>
+				<key>date</key>
+				<date>2023-05-30T22:07:59Z</date>
+				<key>entry</key>
+				<dict>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/jq#readme</string>
+					<key>authorLinkText</key>
+					<string>Mattias Wadman</string>
+					<key>name</key>
+					<string>jq</string>
+					<key>platform</key>
+					<string>usercontribjq</string>
+					<key>uniqueIdentifier</key>
+					<string>jq</string>
 				</dict>
 			</dict>
 		</dict>
