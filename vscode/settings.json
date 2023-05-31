@@ -74,6 +74,9 @@
   // #endregion - General
 
   // #region - Languages
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
@@ -117,6 +120,7 @@
     "dissoc",
     "endregion",
     "enqueues",
+    "Fastify",
     "gatekeep",
     "memoized",
     "paginator",
@@ -161,6 +165,8 @@
   "prettier.requireConfig": true,
 
   "redhat.telemetry.enabled": false,
+
+  "swift.disableAutoResolve": true,
 
   "todohighlight.keywords": [
     {
