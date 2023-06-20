@@ -30,8 +30,6 @@ set PORTS \
   jq \
   port_cutleaves \
   py-mitmproxy \
-  QLColorCode \
-  QLStephen \
   qrencode \
   shellcheck \
   unxip \
