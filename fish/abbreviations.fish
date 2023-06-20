@@ -11,6 +11,7 @@ abbr g git
 abbr ga 'git add'
 abbr gb 'git branch'
 abbr gc 'git commit -v'
+abbr gcl 'git clean'
 abbr gco 'git checkout'
 abbr gcp 'git cherry-pick'
 abbr gd 'git diff'
@@ -47,6 +48,7 @@ abbr kl 'kubectl logs'
 
 # npm
 abbr n npm
+abbr ni 'npm i'
 abbr nr 'npm run'
 abbr ns 'npm start'
 abbr nt 'npm run test'
