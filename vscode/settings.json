@@ -147,7 +147,10 @@
     "whitelisting"
   ],
 
-  "gitlens.codeLens.enabled": false,
+  "gitblame.infoMessageFormat": "${commit.summary} (${commit.hash_short}) by ${author.name} (${time.ago})",
+  "gitblame.inlineMessageEnabled": true,
+  "gitblame.inlineMessageFormat": "by ${author.name} (${time.ago})",
+  "gitblame.statusBarMessageFormat": "by ${author.name} (${time.ago})",
 
   "material-icon-theme.files.associations": {
     "actions.ts": "redux-action",
