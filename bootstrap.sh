@@ -16,7 +16,7 @@ echo "[sudo] Installing required ports..."
 sudo port -N install fish git mint rbenv ruby-build
 
 echo "Installing nvm..."
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.39.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.39.4/install.sh | bash
 
 echo "[sudo] Adding fish to /etc/shells..."
 echo "/opt/local/bin/fish" | sudo tee -a /etc/shells
