@@ -57,6 +57,7 @@
     }
   },
   "terminal.integrated.scrollback": 2000,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
   "window.autoDetectColorScheme": true,
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
@@ -86,7 +87,6 @@
   "javascript.preferences.useAliasesForRenames": false,
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
-  "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.useAliasesForRenames": false,
   // #endregion - Languages
 
