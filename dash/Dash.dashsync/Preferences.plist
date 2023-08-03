@@ -390,6 +390,14 @@
 	<array>
 		<dict>
 			<key>path</key>
+			<string>https://developer.apple.com/support/app-store/</string>
+			<key>platformImagePath</key>
+			<string>Web</string>
+			<key>title</key>
+			<string>iOS Usage Info (App Store - Support - Apple Developer)</string>
+		</dict>
+		<dict>
+			<key>path</key>
 			<string>dash-apple-api://load?request_key=ls/documentation/bundleresources/information_property_list</string>
 			<key>platformImagePath</key>
 			<string>apple</string>
