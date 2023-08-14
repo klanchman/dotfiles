@@ -24,7 +24,6 @@ set EXTENSIONS \
   davidnussio.vscode-jq-playground \
   dbaeumer.vscode-eslint \
   DigitalBrainstem.javascript-ejs-support \
-  eamodio.gitlens \
   esbenp.prettier-vscode \
   graphql.vscode-graphql \
   Ionide.Ionide-fsharp \
@@ -40,6 +39,7 @@ set EXTENSIONS \
   mykhailogrebonkin.apple-crashlog \
   naumovs.color-highlight \
   PKief.material-icon-theme \
+  Prisma.prisma \
   rebornix.ruby \
   redhat.vscode-yaml \
   ryu1kn.partial-diff \
@@ -52,6 +52,7 @@ set EXTENSIONS \
   tamasfe.even-better-toml \
   timonwong.shellcheck \
   vknabel.vscode-apple-swift-format \
+  waderyan.gitblame \
   wayou.vscode-todo-highlight \
   wmaurer.change-case \
 
