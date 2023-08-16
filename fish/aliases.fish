@@ -2,6 +2,9 @@
 alias lss exa
 alias reload 'source ~/.config/fish/config.fish'
 
+# Android
+alias andemu '~/Library/Android/sdk/emulator/emulator'
+
 # docker / docker-compose
 alias docker-prune 'docker container prune; and docker image prune'
 
