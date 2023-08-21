@@ -59,6 +59,7 @@
   "terminal.integrated.scrollback": 2000,
   "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
   "window.autoDetectColorScheme": true,
+  "window.commandCenter": false,
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
     "editor.selectionBackground": "#EAE3CB",
