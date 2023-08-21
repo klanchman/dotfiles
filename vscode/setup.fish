@@ -13,8 +13,6 @@ end
 read -P "[H]ome or [W]ork? " WHERE_AM_I
 
 set EXTENSIONS \
-  42crunch.vscode-openapi \
-  abusaidm.html-snippets \
   aster.vscode-subtitles \
   bierner.markdown-mermaid \
   bkromhout.vscode-tcl \
@@ -35,7 +33,6 @@ set EXTENSIONS \
   mikestead.dotenv \
   mrmlnc.vscode-scss \
   ms-dotnettools.csharp \
-  ms-vscode.vscode-typescript-tslint-plugin \
   mykhailogrebonkin.apple-crashlog \
   naumovs.color-highlight \
   PKief.material-icon-theme \

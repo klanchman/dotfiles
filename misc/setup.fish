@@ -7,4 +7,5 @@ unzip -o airdrop-cli.zip
 pushd airdrop-cli-main
 make
 cp .build/release/airdrop ~/bin/airdrop
-popd
+popd # repo
+popd # tmpdir

@@ -35,7 +35,7 @@ set -U fish_pager_color_progress 'brwhite'  '--background=cyan'
 # Install `fisher` if needed
 if not functions -n | grep fisher > /dev/null
   echo "Installing fisher..."
-  curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+  curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 end
 
 # Install/update fish plugins
