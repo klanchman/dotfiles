@@ -6,22 +6,6 @@
 	<dict>
 		<key>installed</key>
 		<dict>
-			<key>HTTP_Status_Codes</key>
-			<dict>
-				<key>date</key>
-				<date>2023-03-07T05:46:16Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array/>
-					<key>name</key>
-					<string>HTTP Status Codes</string>
-					<key>platform</key>
-					<string>cheatsheet</string>
-					<key>uniqueIdentifier</key>
-					<string>HTTP_Status_Codes</string>
-				</dict>
-			</dict>
 			<key>LLDB_Commands</key>
 			<dict>
 				<key>date</key>
@@ -191,7 +175,7 @@
 			<key>Alamofire/Alamofire</key>
 			<dict>
 				<key>date</key>
-				<date>2023-05-22T14:02:54Z</date>
+				<date>2023-08-24T02:56:52Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -219,7 +203,7 @@
 			<key>yonaskolb/XcodeGen</key>
 			<dict>
 				<key>date</key>
-				<date>2023-05-17T14:07:34Z</date>
+				<date>2023-08-18T03:42:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -468,6 +452,11 @@
 			<dict>
 				<key>date</key>
 				<date>2023-04-01T19:59:14Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/HTTP.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2023-08-25T22:34:04Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
