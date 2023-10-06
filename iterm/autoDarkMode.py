@@ -7,7 +7,7 @@ import iterm2
 
 async def changeTheme(connection,parts):
     theme_dark = "Solarized Dark"
-    theme_light = "Solarized Light"
+    theme_light = "My Solarized Light"
     print(parts)
 
     if "dark" in parts:
