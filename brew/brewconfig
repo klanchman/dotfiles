@@ -3,3 +3,4 @@
 
 export HOMEBREW_NO_AUTO_UPDATE=true
 export HOMEBREW_NO_INSTALL_CLEANUP=true
+export HOMEBREW_CASK_OPTS="--appdir=/Applications/Homebrew"
