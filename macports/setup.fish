@@ -16,8 +16,10 @@ set PORTS \
   bat \
   carthage \
   choose \
+  cloc \
   colima \
-  exa \
+  docker \
+  eza \
   fd \
   "ffmpeg +nonfree -x11" \
   gh \
@@ -33,8 +35,8 @@ set PORTS \
   qrencode \
   shellcheck \
   unxip \
-  xcodes \
   xh \
+  xpdf \
   yarn \
   youtube-dl \
   yq \

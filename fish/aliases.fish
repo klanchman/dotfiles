@@ -1,5 +1,5 @@
 # General
-alias lss exa
+alias lss eza
 alias reload 'source ~/.config/fish/config.fish'
 
 # Android
