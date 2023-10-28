@@ -51,6 +51,7 @@ end
 
 if test "$WHERE_AM_I" = "W"
   set -a BREWS \
+    android-platform-tools \
     azure-cli \
     jmeter \
     nginx \
