@@ -46,7 +46,7 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>X-SwiftFormat (v1.3)</string>
+				<string>X-SwiftFormat (v2.0)</string>
 				<key>Title</key>
 				<string>Format Swift Code</string>
 			</dict>
@@ -526,43 +526,7 @@
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
 				<key>Group</key>
-				<string>Editor Menu for Integration Report Commits</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.EditorDocument.MenuDefinition.EditorOnlyPlusAssistant</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Editor Only</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_showEditorOnly:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
-				<key>Group</key>
 				<string>Editor Menu for Interface Builder - Storyboard</string>
-				<key>GroupID</key>
-				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Editor Only</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_showEditorOnly:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
-				<key>Group</key>
-				<string>Editor Menu for Interface Builder Cocoa Preview</string>
 				<key>GroupID</key>
 				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
 				<key>GroupedAlternate</key>
@@ -637,6 +601,24 @@
 				<string>GPUDebugger.MemoryReport.EditorMenuDefinition.Title Menu for Memory</string>
 				<key>GroupID</key>
 				<string>GPUDebugger.MemoryReport.EditorMenuDefinition</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Show Editor Only</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_showEditorOnly:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
+				<key>Group</key>
+				<string>Editor Menu for MemoryGraph Debugger</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.EditorDocument.MenuDefinition.EditorOnlyPlusAssistant</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Navigation</key>
@@ -814,9 +796,9 @@
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
 				<key>Group</key>
-				<string>Editor Menu for Xcode.IDEKit.EditorDocument.TestReportDocument-title</string>
+				<string>Editor Menu for Xcode.IDEKit.EditorDocument.StructuredConsoleEditorDocument</string>
 				<key>GroupID</key>
-				<string>Xcode.IDELogNavigator.MenuDefinition.EditorAndOpenInWorkspace</string>
+				<string>Xcode.ConsoleKit.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Navigation</key>
