@@ -52,7 +52,7 @@
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.profiles.osx": {
     "fish": {
-      "path": "/opt/local/bin/fish",
+      "path": "/opt/homebrew/bin/fish",
       "args": ["-l"]
     }
   },
