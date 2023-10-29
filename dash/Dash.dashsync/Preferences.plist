@@ -175,7 +175,7 @@
 			<key>Alamofire/Alamofire</key>
 			<dict>
 				<key>date</key>
-				<date>2023-09-21T03:32:34Z</date>
+				<date>2023-10-27T03:29:08Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -189,7 +189,7 @@
 			<key>yonaskolb/XcodeGen</key>
 			<dict>
 				<key>date</key>
-				<date>2023-10-03T03:46:00Z</date>
+				<date>2023-10-17T15:57:50Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -267,7 +267,7 @@
 			<key>https://github.com/Alamofire/Alamofire</key>
 			<dict>
 				<key>date</key>
-				<date>2023-10-03T03:46:13Z</date>
+				<date>2023-10-29T03:39:01Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -281,7 +281,7 @@
 			<key>https://github.com/hmlongco/Factory</key>
 			<dict>
 				<key>date</key>
-				<date>2023-10-03T03:46:13Z</date>
+				<date>2023-10-29T03:39:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -295,7 +295,7 @@
 			<key>https://github.com/kean/Nuke</key>
 			<dict>
 				<key>date</key>
-				<date>2023-10-03T03:46:31Z</date>
+				<date>2023-10-29T03:39:20Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -383,7 +383,7 @@
 			<key>jq</key>
 			<dict>
 				<key>date</key>
-				<date>2023-05-30T22:07:59Z</date>
+				<date>2023-10-19T03:22:43Z</date>
 				<key>entry</key>
 				<dict>
 					<key>authorLinkHref</key>
@@ -402,6 +402,8 @@
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
+	<key>DHWKWebViewTextSizeMultiplier</key>
+	<real>1</real>
 	<key>actuallyDarkWebView</key>
 	<true/>
 	<key>annotationsAreShown</key>
@@ -664,6 +666,8 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>https://github.com/Alamofire/Alamofire</key>
+			<dict/>
 			<key>https://github.com/hmlongco/Factory</key>
 			<dict/>
 			<key>https://github.com/kean/Nuke</key>
