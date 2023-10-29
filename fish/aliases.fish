@@ -30,6 +30,7 @@ alias gpsup 'git push --set-upstream origin (git_current_branch)'
 alias grba 'git rebase --abort'
 alias grbc 'git rebase --continue'
 alias gs 'git status'
+alias gwd 'git switch-default'
 
 alias gitconfig 'vim ~/.gitconfig'
 
