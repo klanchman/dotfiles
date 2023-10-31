@@ -47,7 +47,9 @@
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "git.terminalAuthentication": false,
   "search.showLineNumbers": true,
+  "telemetry.telemetryLevel": "error",
   "terminal.integrated.defaultProfile.osx": "fish",
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.profiles.osx": {

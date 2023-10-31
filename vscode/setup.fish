@@ -24,7 +24,7 @@ set EXTENSIONS \
   DigitalBrainstem.javascript-ejs-support \
   esbenp.prettier-vscode \
   graphql.vscode-graphql \
-  Ionide.Ionide-fsharp \
+  # Ionide.Ionide-fsharp \  # Enable if desired
   JohannesRudolph.file-ext-switcher \
   mariomatheu.syntax-project-pbxproj \
   me-dutour-mathieu.vscode-github-actions \
