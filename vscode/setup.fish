@@ -53,7 +53,7 @@ set EXTENSIONS \
   wayou.vscode-todo-highlight \
   wmaurer.change-case \
 
-if test "$WHERE_AM_I" = "W"
+if test (string upper $WHERE_AM_I) = "W"
   set -a EXTENSIONS \
     ms-azuretools.vscode-bicep \
     ms-vsliveshare.vsliveshare \
