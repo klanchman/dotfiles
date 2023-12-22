@@ -11,6 +11,7 @@ set BREWS \
   cloc \
   colima \
   docker \
+  docker-buildx \
   eza \
   fd \
   ffmpeg \
@@ -26,6 +27,8 @@ set BREWS \
   qrencode \
   shellcheck \
   unxip \
+  vapor \
+  watchexec \
   xh \
   xpdf \
   yarn \
@@ -92,3 +95,7 @@ end
 echo "Enabling Brew services, you may be prompted for your password"
 
 sudo brew services start asimov
+
+echo "Symlinking Docker plugins"
+mkdir -p ~/.docker/cli-plugins
+ln -sfn /opt/homebrew/opt/docker-buildx/bin/docker-buildx ~/.docker/cli-plugins/docker-buildx
