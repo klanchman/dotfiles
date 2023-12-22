@@ -11,7 +11,7 @@ echo "Installing required packages from Homebrew..."
 brew install fish git mint rbenv
 
 echo "Installing nvm..."
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.39.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.39.7/install.sh | bash
 
 echo "[sudo] Adding fish to /etc/shells..."
 echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
