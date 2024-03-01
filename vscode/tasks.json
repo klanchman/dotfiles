@@ -7,6 +7,11 @@
       "label": "git blame",
       "type": "shell",
       "command": "git blame ${file}",
+      "options": {
+        "env": {
+          "DELTA_PAGER": "less -R"
+        }
+      },
       "presentation": {
         "echo": true,
         "reveal": "always",
