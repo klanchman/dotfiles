@@ -13,7 +13,7 @@
   // #region - General
   "breadcrumbs.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.comments.ignoreEmptyLines": false,
   "editor.cursorStyle": "block",
@@ -62,7 +62,6 @@
   "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
   "window.autoDetectColorScheme": true,
   "window.commandCenter": false,
-  "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
     "editor.selectionBackground": "#EAE3CB",
     "statusBar.debuggingForeground": "#C56231"
@@ -128,6 +127,7 @@
     "memoized",
     "paginator",
     "powerset",
+    "Pressable",
     "processable",
     "procs",
     "release",

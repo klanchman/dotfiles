@@ -17,14 +17,15 @@ set EXTENSIONS \
   bierner.markdown-mermaid \
   bkromhout.vscode-tcl \
   bpruitt-goddard.mermaid-markdown-syntax-highlighting \
+  bradlc.vscode-tailwindcss \
   budparr.language-hugo-vscode \
   christian-kohler.path-intellisense \
   davidnussio.vscode-jq-playground \
   dbaeumer.vscode-eslint \
   DigitalBrainstem.javascript-ejs-support \
   esbenp.prettier-vscode \
+  Francisco.html-leaf \
   graphql.vscode-graphql \
-  # Ionide.Ionide-fsharp \  # Enable if desired
   JohannesRudolph.file-ext-switcher \
   mariomatheu.syntax-project-pbxproj \
   me-dutour-mathieu.vscode-github-actions \
@@ -44,6 +45,7 @@ set EXTENSIONS \
   skyapps.fish-vscode \
   sleistner.vscode-fileutils \
   speedy37.ascii-plist \
+  sswg.swift-lang \
   streetsidesoftware.code-spell-checker \
   svanimpe.stencil \
   tamasfe.even-better-toml \
