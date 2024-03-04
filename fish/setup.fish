@@ -40,3 +40,7 @@ end
 
 # Install/update fish plugins
 fisher update
+
+# Generate completions
+echo "Installing completions..."
+swift package completion-tool generate-fish-script > ~/.config/fish/completions/swift.fish

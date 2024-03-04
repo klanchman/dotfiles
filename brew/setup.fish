@@ -12,6 +12,7 @@ set BREWS \
   colima \
   docker \
   docker-buildx \
+  docker-compose \
   eza \
   fd \
   ffmpeg \
@@ -54,12 +55,12 @@ end
 
 if test (string upper $WHERE_AM_I) = "W"
   set -a BREWS \
-    android-platform-tools \
     azure-cli \
     jmeter \
     nginx \
 
   set -a CASKS \
+    android-platform-tools \
     ngrok \
     wireshark \
 
@@ -99,3 +100,4 @@ sudo brew services start asimov
 echo "Symlinking Docker plugins"
 mkdir -p ~/.docker/cli-plugins
 ln -sfn /opt/homebrew/opt/docker-buildx/bin/docker-buildx ~/.docker/cli-plugins/docker-buildx
+ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugins/docker-compose
