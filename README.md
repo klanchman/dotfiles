@@ -8,16 +8,15 @@ Dotfiles for macOS.
 - fish
 - git
 - mint
-- nvm
-- rbenv
+- mise
+- port
 
-Run the following script to get prerequisites installed:
+Install Xcode, [Homebrew](https://brew.sh), and [MacPorts](https://www.macports.org/install.php) first,
+then run the following script to get the rest installed:
 
 ```
 ./bootstrap.sh
 ```
-
-You'll probably want to have Xcode installed before that though.
 
 ### Other Prerequisites
 

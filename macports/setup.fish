@@ -9,9 +9,8 @@ mkdir -p ~/code/macports-local
 sudo port selfupdate
 
 set PORTS \
-  dotnet-sdk-7 \
   dumpasn1 \
-  python27 \
+  port_cutleaves \
 
 set CURRENT_PORTS (port installed | tail -n+2 | string replace -r ' @.*$' '' | string replace -r '^\s+' '')
 
