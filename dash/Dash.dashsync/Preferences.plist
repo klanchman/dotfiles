@@ -526,6 +526,18 @@
 			<string>nuke:</string>
 			<key>~/Library/Application Support/Dash/GitHub/yonaskolbXcodeGen/yonaskolb-XcodeGen.docset</key>
 			<string>xcgen:</string>
+			<key>~/Library/Application Support/Dash/Swift DocSets/AlamofireAlamofire/Alamofire.doccarchive/Alamofire.docset</key>
+			<string>alamo:</string>
+			<key>~/Library/Application Support/Dash/Swift DocSets/hmlongcoFactory/Factory.doccarchive/Factory.docset</key>
+			<string>factory:</string>
+			<key>~/Library/Application Support/Dash/Swift DocSets/keanNuke/Nuke.doccarchive/Nuke.docset</key>
+			<string>nuke:</string>
+			<key>~/Library/Application Support/Dash/Swift DocSets/keanNuke/NukeExtensions.doccarchive/NukeExtensions.docset</key>
+			<string>nukeext:</string>
+			<key>~/Library/Application Support/Dash/Swift DocSets/keanNuke/NukeUI.doccarchive/NukeUI.docset</key>
+			<string>nukeui:</string>
+			<key>~/Library/Application Support/Dash/Swift DocSets/keanNuke/NukeVideo.doccarchive/NukeVideo.docset</key>
+			<string>nukevid:</string>
 			<key>~/Library/Application Support/Dash/User Contributed/Swift Language Guide/SwiftLanguageGuide.docset</key>
 			<string>swift:</string>
 			<key>~/Library/Application Support/Dash/Versioned DocSets/NodeJS - DHDocsetDownloader/18-11-0/NodeJS.docset</key>
