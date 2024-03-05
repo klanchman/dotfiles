@@ -334,6 +334,35 @@
 					<string>Ramda</string>
 				</dict>
 			</dict>
+			<key>React_Native</key>
+			<dict>
+				<key>date</key>
+				<date>2023-08-22T20:35:24Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>React</string>
+						<string>ReactNative</string>
+						<string>Facebook</string>
+						<string>JavaScript</string>
+						<string>Reactjs</string>
+						<string>UI</string>
+						<string>iOS</string>
+						<string>Android</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/React_Native#readme</string>
+					<key>authorLinkText</key>
+					<string>mnmaraes</string>
+					<key>name</key>
+					<string>React Native</string>
+					<key>platform</key>
+					<string>usercontribReact_Native</string>
+					<key>uniqueIdentifier</key>
+					<string>React_Native</string>
+				</dict>
+			</dict>
 			<key>Swift</key>
 			<dict>
 				<key>date</key>
@@ -356,6 +385,30 @@
 					<string>usercontribSwift</string>
 					<key>uniqueIdentifier</key>
 					<string>Swift</string>
+				</dict>
+			</dict>
+			<key>Tailwind_CSS</key>
+			<dict>
+				<key>date</key>
+				<date>2024-03-04T20:28:31Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>tailwind</string>
+						<string>TailwindCSS</string>
+						<string>tailwind CSS</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Tailwind_CSS#readme</string>
+					<key>authorLinkText</key>
+					<string>Ben Booth, Guill Lo, Akinori Musha</string>
+					<key>name</key>
+					<string>Tailwind CSS</string>
+					<key>platform</key>
+					<string>usercontribTailwind_CSS</string>
+					<key>uniqueIdentifier</key>
+					<string>Tailwind_CSS</string>
 				</dict>
 			</dict>
 			<key>fish</key>
@@ -516,6 +569,11 @@
 			<dict>
 				<key>date</key>
 				<date>2023-02-17T23:18:12Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/React.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2023-08-15T16:39:33Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/TypeScript.xml</key>
 			<dict>
