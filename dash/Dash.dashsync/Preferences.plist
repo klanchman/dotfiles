@@ -175,7 +175,7 @@
 			<key>Alamofire/Alamofire</key>
 			<dict>
 				<key>date</key>
-				<date>2023-10-27T03:29:08Z</date>
+				<date>2024-03-04T04:46:48Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -189,7 +189,7 @@
 			<key>yonaskolb/XcodeGen</key>
 			<dict>
 				<key>date</key>
-				<date>2023-10-17T15:57:50Z</date>
+				<date>2024-02-16T16:03:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -267,7 +267,7 @@
 			<key>https://github.com/Alamofire/Alamofire</key>
 			<dict>
 				<key>date</key>
-				<date>2023-10-29T03:39:01Z</date>
+				<date>2024-03-04T04:47:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -281,7 +281,7 @@
 			<key>https://github.com/hmlongco/Factory</key>
 			<dict>
 				<key>date</key>
-				<date>2023-10-29T03:39:04Z</date>
+				<date>2024-02-02T23:34:34Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -295,7 +295,7 @@
 			<key>https://github.com/kean/Nuke</key>
 			<dict>
 				<key>date</key>
-				<date>2023-10-29T03:39:20Z</date>
+				<date>2024-02-11T04:25:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -383,7 +383,7 @@
 			<key>jq</key>
 			<dict>
 				<key>date</key>
-				<date>2023-10-19T03:22:43Z</date>
+				<date>2024-02-10T04:24:31Z</date>
 				<key>entry</key>
 				<dict>
 					<key>authorLinkHref</key>
@@ -441,6 +441,14 @@
 			<string>Web</string>
 			<key>title</key>
 			<string>Human Interface Guidelines | Apple Developer Documentation</string>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>https://developer.apple.com/design/human-interface-guidelines/typography#Specifications</string>
+			<key>platformImagePath</key>
+			<string></string>
+			<key>title</key>
+			<string>Typography | Dynamic Type sizes | HIG</string>
 		</dict>
 	</array>
 	<key>docsets</key>
