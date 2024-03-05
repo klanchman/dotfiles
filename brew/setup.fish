@@ -13,6 +13,7 @@ set BREWS \
   docker \
   docker-buildx \
   docker-compose \
+  docker-credential-helper \
   eza \
   fd \
   ffmpeg \
