@@ -94,7 +94,7 @@
 
   // #region - Extensions
   "apple-swift-format.path": [
-    "~/.mint/packages/github.com_apple_swift-format/build/0.50700.1/swift-format"
+    "/Users/klanchman/.mint/packages/github.com_apple_swift-format/build/509.0.0/swift-format"
   ],
   "apple-swift-format.onlyEnableWithConfig": true,
   "apple-swift-format.configSearchPaths": [
