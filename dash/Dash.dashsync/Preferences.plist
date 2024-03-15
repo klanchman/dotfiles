@@ -168,6 +168,80 @@
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
+	<key>DHDocsetGeneratorRepo</key>
+	<dict>
+		<key>installed</key>
+		<dict>
+			<key>Vapor</key>
+			<dict>
+				<key>date</key>
+				<date>2024-03-15T22:01:22Z</date>
+				<key>entry</key>
+				<dict>
+					<key>docsetGeneratorSettings</key>
+					<dict>
+						<key>allowFilters</key>
+						<string>https://docs.vapor.codes/*</string>
+						<key>basicIndexEnabled</key>
+						<true/>
+						<key>cssToInject</key>
+						<string>header {
+    display: none !important;
+}
+
+footer {
+    display: none !important;
+}
+
+/* The left sidebar */
+.md-sidebar--primary {
+    display: none !important;
+}</string>
+						<key>denyFilters</key>
+						<string>https://docs.vapor.codes/zh/*,https://docs.vapor.codes/nl/*,https://docs.vapor.codes/fr/*,https://docs.vapor.codes/de/*,https://docs.vapor.codes/it/*,https://docs.vapor.codes/es/*,https://docs.vapor.codes/pl/*,https://docs.vapor.codes/ko/*,https://docs.vapor.codes/ja/*</string>
+						<key>docsetKeyword</key>
+						<string>vapor</string>
+						<key>docsetName</key>
+						<string>Vapor</string>
+						<key>extraInfoPlist</key>
+						<string></string>
+						<key>isFromLocalFolder</key>
+						<false/>
+						<key>isFromWebsite</key>
+						<true/>
+						<key>javaScriptIndexEnabled</key>
+						<false/>
+						<key>javaScriptUsedToIndex</key>
+						<string>const pageTitle = $("title").text();
+dashDoc.addEntry({name: pageTitle, type: "Guide"});
+
+$("h1").each(function() {
+    const entryName = $(this).text();
+    var entryHash = $(this).attr('id');
+    if(!entryHash)
+    {
+        entryHash = entryName.replace(/\W/g, '');
+        $(this).attr('id', entryHash);
+    }
+    dashDoc.addEntry({name: entryName, type: "Section", hash: entryHash});
+});</string>
+						<key>localFolderPath</key>
+						<string></string>
+						<key>websiteURL</key>
+						<string>https://docs.vapor.codes</string>
+					</dict>
+					<key>name</key>
+					<string>Vapor</string>
+					<key>platform</key>
+					<string>Other</string>
+					<key>uniqueIdentifier</key>
+					<string>Vapor</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>uninstalled</key>
+		<dict/>
+	</dict>
 	<key>DHGitHubRepo</key>
 	<dict>
 		<key>installed</key>
@@ -267,7 +341,7 @@
 			<key>https://github.com/Alamofire/Alamofire</key>
 			<dict>
 				<key>date</key>
-				<date>2024-03-04T04:47:02Z</date>
+				<date>2024-03-14T16:39:15Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -281,7 +355,7 @@
 			<key>https://github.com/hmlongco/Factory</key>
 			<dict>
 				<key>date</key>
-				<date>2024-02-02T23:34:34Z</date>
+				<date>2024-03-14T16:39:16Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -295,7 +369,7 @@
 			<key>https://github.com/kean/Nuke</key>
 			<dict>
 				<key>date</key>
-				<date>2024-02-11T04:25:04Z</date>
+				<date>2024-03-14T16:45:06Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -337,7 +411,7 @@
 			<key>React_Native</key>
 			<dict>
 				<key>date</key>
-				<date>2023-08-22T20:35:24Z</date>
+				<date>2024-03-05T20:13:39Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -390,7 +464,7 @@
 			<key>Tailwind_CSS</key>
 			<dict>
 				<key>date</key>
-				<date>2024-03-04T20:28:31Z</date>
+				<date>2024-03-07T04:26:28Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -585,7 +659,7 @@
 			<key>http://kapeli.com/feeds/React.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2023-08-15T16:39:33Z</date>
+				<date>2024-03-05T20:13:41Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/TypeScript.xml</key>
 			<dict>
