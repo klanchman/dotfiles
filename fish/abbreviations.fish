@@ -62,6 +62,7 @@ abbr s swift
 abbr sb 'swift build'
 abbr sr 'swift run'
 abbr sp 'swift package'
+abbr st 'swift test'
 
 # yarn
 abbr y yarn

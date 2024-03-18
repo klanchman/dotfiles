@@ -51,6 +51,7 @@ set EXTENSIONS \
   tamasfe.even-better-toml \
   timonwong.shellcheck \
   vknabel.vscode-apple-swift-format \
+  vknabel.vscode-swiftlint \
   waderyan.gitblame \
   wayou.vscode-todo-highlight \
   wmaurer.change-case \

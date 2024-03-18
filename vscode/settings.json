@@ -13,7 +13,7 @@
   // #region - General
   "breadcrumbs.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll": "explicit"
   },
   "editor.comments.ignoreEmptyLines": false,
   "editor.cursorStyle": "block",
@@ -28,6 +28,7 @@
   "editor.rulers": [80, 120],
   "editor.tabSize": 2,
   "editor.wordWrap": "off",
+  "extensions.ignoreRecommendations": true,
   "files.associations": {
     "*.apns": "json",
     ".env": "dotenv",
@@ -173,6 +174,8 @@
   "redhat.telemetry.enabled": false,
 
   "swift.disableAutoResolve": true,
+
+  "swiftlint.path": "/Users/klanchman/.mint/packages/github.com_realm_SwiftLint/build/0.54.0/swiftlint",
 
   "todohighlight.keywords": [
     {
