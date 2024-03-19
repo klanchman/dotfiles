@@ -36,6 +36,7 @@ set EXTENSIONS \
   ms-dotnettools.csharp \
   mykhailogrebonkin.apple-crashlog \
   naumovs.color-highlight \
+  Orta.vscode-jest \
   PKief.material-icon-theme \
   Prisma.prisma \
   rebornix.ruby \
@@ -50,6 +51,7 @@ set EXTENSIONS \
   svanimpe.stencil \
   tamasfe.even-better-toml \
   timonwong.shellcheck \
+  vitest.explorer \
   vknabel.vscode-apple-swift-format \
   vknabel.vscode-swiftlint \
   waderyan.gitblame \

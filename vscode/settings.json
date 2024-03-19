@@ -63,6 +63,7 @@
   "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
   "window.autoDetectColorScheme": true,
   "window.commandCenter": false,
+  "window.newWindowDimensions": "offset",
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
     "editor.selectionBackground": "#EAE3CB",
@@ -157,6 +158,8 @@
   "gitblame.inlineMessageEnabled": true,
   "gitblame.inlineMessageFormat": "by ${author.name} (${time.ago})",
   "gitblame.statusBarMessageFormat": "by ${author.name} (${time.ago})",
+
+  "jest.runMode": "on-demand",
 
   "material-icon-theme.files.associations": {
     "actions.ts": "redux-action",
