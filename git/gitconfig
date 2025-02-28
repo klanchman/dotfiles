@@ -7,18 +7,41 @@
 	editor = /usr/bin/vim
 	pager = my-delta
 
-[interactive]
-	diffFilter = my-delta --color-only
+[commit]
+	cleanup = scissors
 
 [diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true
+	renames = true
 	tool = vscode
+
 [difftool "vscode"]
 	cmd = code --new-window --wait --diff \"$LOCAL\" \"$REMOTE\"
 
+[init]
+	defaultBranch = main
+
+[interactive]
+	diffFilter = my-delta --color-only
+
 [merge]
+	conflictstyle = zdiff3
 	tool = vscode
+
 [mergetool "vscode"]
 	cmd = code --wait \"$MERGED\"
+
+[pull]
+	rebase = false
+
+[push]
+	autoSetupRemote = true
+
+[rerere]
+	autoupdate = true
+	enabled = true
 
 [alias]
 	default-branch = "!f() { basename $(git rev-parse --abbrev-ref --short origin/HEAD); }; f"
@@ -28,12 +51,3 @@
 	mt = mergetool
 	pr = "!f() { git fetch $1 pull/$2/head:pull/$2 && git checkout pull/$2; }; f"
 	switch-default = "!f() { git switch $(git default-branch); }; f"
-
-[pull]
-	rebase = false
-
-[init]
-	defaultBranch = main
-
-[commit]
-	cleanup = scissors
