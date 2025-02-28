@@ -23,6 +23,7 @@ set EXTENSIONS \
   davidnussio.vscode-jq-playground \
   dbaeumer.vscode-eslint \
   DigitalBrainstem.javascript-ejs-support \
+  elmTooling.elm-ls-vscode \
   esbenp.prettier-vscode \
   Francisco.html-leaf \
   graphql.vscode-graphql \
@@ -39,16 +40,15 @@ set EXTENSIONS \
   Orta.vscode-jest \
   PKief.material-icon-theme \
   Prisma.prisma \
-  rebornix.ruby \
   redhat.vscode-yaml \
   ryu1kn.partial-diff \
-  sbrink.elm \
+  Shopify.ruby-lsp \
   skyapps.fish-vscode \
   sleistner.vscode-fileutils \
   speedy37.ascii-plist \
-  sswg.swift-lang \
   streetsidesoftware.code-spell-checker \
   svanimpe.stencil \
+  swiftlang.swift-vscode \
   tamasfe.even-better-toml \
   timonwong.shellcheck \
   vitest.explorer \

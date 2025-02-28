@@ -12,6 +12,8 @@
 
   // #region - General
   "breadcrumbs.enabled": true,
+  "chat.commandCenter.enabled": false,
+  "debug.toolBarLocation": "commandCenter",
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
@@ -62,7 +64,7 @@
   "terminal.integrated.scrollback": 2000,
   "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
   "window.autoDetectColorScheme": true,
-  "window.commandCenter": false,
+  "window.commandCenter": true,
   "window.newWindowDimensions": "offset",
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
