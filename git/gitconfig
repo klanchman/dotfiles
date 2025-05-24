@@ -36,9 +36,6 @@
 [pull]
 	rebase = false
 
-[push]
-	autoSetupRemote = true
-
 [rerere]
 	autoupdate = true
 	enabled = true
