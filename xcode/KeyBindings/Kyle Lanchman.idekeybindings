@@ -244,7 +244,7 @@
 				<key>Parent Title</key>
 				<string>New</string>
 				<key>Title</key>
-				<string>Editor</string>
+				<string>Editor Pane</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -268,7 +268,7 @@
 				<key>Parent Title</key>
 				<string>New</string>
 				<key>Title</key>
-				<string>Editor Below</string>
+				<string>Editor Pane Below</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -814,26 +814,6 @@
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
 				<key>Group</key>
-				<string>Editor Menu for Source Control History</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceControlUI.MenuDefinition.WorkingCopyEditor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Editor Only</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>_showEditorOnly:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
-				<key>Group</key>
 				<string>Editor Menu for SpriteKit Scene Editor</string>
 				<key>GroupID</key>
 				<string>Xcode.SpriteKit.Scene.Editor.MenuDefinition</string>
@@ -877,6 +857,26 @@
 				<string>Editor Menu for View Hierarchy</string>
 				<key>GroupID</key>
 				<string>Xcode.DBGViewDebuggerEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Show Editor Only</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_showEditorOnly:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
+				<key>Group</key>
+				<string>Editor Menu for Working Copy Changes Gallery Document</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEDelta.MenuDefinition.WorkingCopyChangesEditor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Navigation</key>
