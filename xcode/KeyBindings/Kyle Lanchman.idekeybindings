@@ -600,7 +600,7 @@
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
 				<key>Group</key>
-				<string>GPUDebugger.StandardAndAssistant.EditorMenuDefinition.Title Menu for GPU Frame Debugger</string>
+				<string>GPU Debugger Menu for GPU Frame Debugger</string>
 				<key>GroupID</key>
 				<string>GPUDebugger.StandardAndAssistant.EditorMenuDefinition</string>
 				<key>GroupedAlternate</key>
@@ -700,7 +700,7 @@
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
 				<key>Group</key>
-				<string>GPUDebugger.MemoryReport.EditorMenuDefinition.Title Menu for Memory</string>
+				<string>GPU Memory Menu for Memory</string>
 				<key>GroupID</key>
 				<string>GPUDebugger.MemoryReport.EditorMenuDefinition</string>
 				<key>GroupedAlternate</key>
@@ -740,7 +740,7 @@
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowStandardEditor</string>
 				<key>Group</key>
-				<string>GPUDebugger.GPUTimeline.EditorMenuDefinition.Title Menu for Performance</string>
+				<string>GPU Performance Menu for Performance</string>
 				<key>GroupID</key>
 				<string>GPUDebugger.GPUTimeline.EditorMenuDefinition</string>
 				<key>GroupedAlternate</key>
