@@ -26,6 +26,7 @@ set BREWS \
   jo \
   jq \
   mitmproxy \
+  mkvtoolnix \
   qrencode \
   shellcheck \
   unxip \
@@ -49,7 +50,7 @@ if test (string upper $WHERE_AM_I) = "H"
     xdelta \
 
   set -a CASKS \
-    mkvtoolnix \
+    mkvtoolnix-app \
     mpv \
 
 end
@@ -96,7 +97,7 @@ end
 
 echo "Enabling Brew services, you may be prompted for your password"
 
-sudo brew services start asimov
+brew services start asimov
 
 echo "Symlinking Docker plugins"
 mkdir -p ~/.docker/cli-plugins
