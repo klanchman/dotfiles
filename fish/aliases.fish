@@ -2,6 +2,9 @@
 alias lss eza
 alias reload 'source ~/.config/fish/config.fish'
 
+alias c 'code .'
+alias f 'fork .'
+
 # Android
 alias andemu '~/Library/Android/sdk/emulator/emulator'
 
