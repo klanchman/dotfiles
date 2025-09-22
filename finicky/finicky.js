@@ -1,59 +1,69 @@
-// Use https://finicky-kickstart.now.sh to generate basic configuration
-// Learn more about configuration options: https://github.com/johnste/finicky/wiki/Configuration
+// @ts-check
 
-module.exports = {
+/**
+ * @typedef {import('/Applications/Finicky.app/Contents/Resources/finicky.d.ts').FinickyConfig} FinickyConfig
+ */
+
+/**
+ * @type {FinickyConfig}
+ */
+export default {
   defaultBrowser: "Safari",
   options: {
-    urlShorteners: (list) => [...list, "zpl.io"],
+    keepRunning: true
+    // urlShorteners: (list) => [...list, "zpl.io"],
   },
   rewrite: [
-    // Redirect Reddit links to old.reddit.com
     {
+      // Redirect Reddit links to old.reddit.com
       match: finicky.matchHostnames(["www.reddit.com", "reddit.com"]),
-      url({ url }) {
-        return {
-          ...url,
-          host: 'old.reddit.com',
-        }
+      url(url) {
+        const newUrl = new URL(url.toString());
+        newUrl.hostname = 'old.reddit.com';
+        return newUrl;
       }
     },
   ],
   handlers: [
-    // Open MS Teams links in Teams app
     {
+      // Open MS Teams links in Teams app
       match: finicky.matchHostnames(["teams.microsoft.com"]),
       browser: "com.microsoft.teams",
-      url({ url }) {
-        return {
-          ...url,
-          protocol: "msteams",
-        }
-      },
     },
     {
       // Open Zeplin links in Zeplin app
-      match: [finicky.matchDomains(/app\.zeplin\.io/)],
+      match: finicky.matchHostnames(["app.zeplin.io"]),
       browser: "io.zeplin.osx",
     },
     {
       // Open Figma links in Firefox
-      match: ["figma.com*", finicky.matchDomains(/.*\.figma\.com/)],
+      match: finicky.matchHostnames(["figma.com", /.+\.figma.com/]),
       browser: "Firefox",
     },
     {
       // Open Miro links in Firefox
-      match: ["miro.com*", finicky.matchDomains(/.*\.miro\.com/)],
+      match: finicky.matchHostnames(["miro.com", /.+\.miro.com/]),
       browser: "Firefox",
     },
     {
-      // Open Google links in Firefox
-      match: ["google.com*", finicky.matchDomains(/.*\.google.com/)],
-      browser: "Firefox",
+      // Open Google links in a Safari private window
+      match: finicky.matchHostnames(["google.com", /.+\.google.com/]),
+      browser: "PrivateWindow",
+    },
+    {
+      // Open YouTube links in a Safari private window
+      match: finicky.matchHostnames(["youtube.com", "youtu.be", /.+\.youtube.com/]),
+      browser: "PrivateWindow",
     },
     {
       // Open Tailscale links in Firefox
-      match: ["tailscale.com*", finicky.matchDomains(/.*\.tailscale.com/)],
+      match: finicky.matchHostnames(["tailscale.com", /.+\.tailscale.com/]),
       browser: "Firefox",
+    },
+    {
+      // Open Linear links in Linear
+      match: ["linear.app/klanchman*"],
+      browser: "Linear",
     },
   ],
 }
